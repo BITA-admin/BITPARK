@@ -1,0 +1,50 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css?family=Bungee+Inline"); */
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700"); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Rajdhani";
+}
+/* .glow {
+  transition: all 0.3s ease-in-out;
+}
+.glow:hover {
+  box-shadow: 0 0 25px rgb(206, 71, 193);
+}
+.img_glow {
+  box-shadow: 0 0 25px rgb(206, 71, 193);
+}
+.neno-button {
+  transition: all 0.3s ease-in-out;
+}
+.neno-button {
+  box-shadow: 0 0 15px rgb(206, 71, 193);
+} */
+.border_glow {
+  box-shadow: 0 0 10px white;
+}
+.border_glows {
+  box-shadow: 0 0 15px #3a7ba5;
+}
+/* .borderr_glow { */
+/* box-shadow: 0 0 10px #3a7ba5; */
+/* } */
+
+/* body { */
+/* background-color: hsl(0, 0%, 1%); */
+/* background-color: #3a7ba5; */
+/* background-color: black; */
+/* } */
+
+/* ul {
+  list-style-type: none; 
+}
+
+ul li::before {
+  content: "\2713"; 
+  margin-right: 5px;
+} */

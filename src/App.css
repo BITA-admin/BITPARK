@@ -1,0 +1,9 @@
+.home_bg {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url(./assets/all-images/home-bg-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
