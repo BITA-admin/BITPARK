@@ -7,6 +7,10 @@ import { useRef, useState } from "react";
 import { FiLock } from "react-icons/fi";
 import { motion } from "framer-motion";
 
+// import React, { useState } from "react";
+import emailjs from "emailjs-com";
+import { message } from "antd";
+
 defineElement(lottie.loadAnimation);
 
 import {
@@ -69,6 +73,57 @@ const EncryptButton = () => {
     setText(TARGET_TEXT);
   };
 
+  // mailjs
+
+  const [formData, setFormData] = useState({
+    user_name: "",
+    user_email: "",
+    user_phone: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const clearFormFields = () => {
+    setFormData({
+      user_name: "",
+      user_email: "",
+      user_phone: "",
+      message: "",
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .send(
+        "service_1eb5elh", // Replace with your EmailJS service ID
+        "template_5m2y84s", // Replace with your EmailJS template ID
+        formData,
+        "YxP4X05UHXB7tHCur" // Replace with your EmailJS user ID
+      )
+      .then((res) => {
+        message.success("Email sent successfully", res);
+        clearFormFields();
+        setTimeout(() => {
+          message.destroy();
+        }, 3000);
+      })
+      .catch((err) => {
+        message.error("Try again...!!!", err);
+        setTimeout(() => {
+          message.destroy();
+        }, 3000);
+      });
+  };
+
   return (
     <div>
       <div>
@@ -107,7 +162,10 @@ const EncryptButton = () => {
           <div className="block  rounded-lg bg-[hsla(0,0%,100%)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  md:py-16 md:px-12 xl:-mt-[140px] xl:backdrop-blur-[30px] border border-gray-300">
             <div className="flex flex-wrap ">
               <div className=" w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
-                <form className="mb-12  w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0   lg:px-6">
+                <form
+                  onSubmit={handleSubmit}
+                  className="mb-12  w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0   lg:px-6"
+                >
                   <div className="mb-3 w-full ">
                     <label
                       className="block font-semibold mb-[2px] text-blueColor "
@@ -120,6 +178,10 @@ const EncryptButton = () => {
                       className="px-2 py-2 border w-full outline-none rounded-md"
                       id="exampleInput90"
                       placeholder="Name"
+                      name="user_name"
+                      required
+                      value={formData.user_name}
+                      onChange={handleChange}
                     />
                   </div>
 
@@ -131,10 +193,15 @@ const EncryptButton = () => {
                       Phone
                     </label>
                     <input
-                      type="number"
+                      type="tel"
                       className="px-2 py-2 border w-full outline-none rounded-md"
                       id="exampleInput90"
                       placeholder="Phone"
+                      name="user_phone"
+                      pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                      value={formData.user_phone}
+                      title="Please enter a valid phone number"
+                      onChange={handleChange}
                     />
                   </div>
 
@@ -149,7 +216,11 @@ const EncryptButton = () => {
                       type="email"
                       className="px-2 py-2 border w-full outline-none rounded-md"
                       id="exampleInput90"
-                      placeholder="Enter your email address"
+                      required
+                      placeholder="Email"
+                      name="user_email"
+                      value={formData.user_email}
+                      onChange={handleChange}
                     />
                   </div>
 
@@ -163,8 +234,9 @@ const EncryptButton = () => {
                     <textarea
                       className="px-2 py-2 border rounded-[5px] w-full outline-none"
                       placeholder="Message Here..."
-                      name=""
-                      id=""
+                      name="message"
+                      value={formData.message}
+                      onChange={handleChange}
                     ></textarea>
                   </div>
 

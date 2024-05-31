@@ -1,10 +1,9 @@
-import React from "react";
 import webimg1 from "../../../../src/assets/all-images/webserviceimg1.png";
-import websimg1 from "../../../../src/assets/all-images/websimg1.jpeg";
-import websimg2 from "../../../../src/assets/all-images/websimg2.jpeg";
-import websimg4 from "../../../../src/assets/all-images/websimg4.jpeg";
-import websimg5 from "../../../../src/assets/all-images/websimg5.jpeg";
-import websimg6 from "../../../../src/assets/all-images/websimg6.jpeg";
+import websimg1 from "../../../../src/assets/all-images/websimg1.png";
+import websimg2 from "../../../../src/assets/all-images/websimg2.png";
+import websimg4 from "../../../../src/assets/all-images/websimg4.png";
+import websimg5 from "../../../../src/assets/all-images/websimg5.png";
+import websimg6 from "../../../../src/assets/all-images/websimg6.png";
 
 function WebServices() {
   return (
@@ -14,7 +13,7 @@ function WebServices() {
           <div
             className="bg-no-repeat bg-cover flex flex-col lg:flex-row justify-around w-auto py-[5%] items-center"
             style={{
-              backgroundImage: "url(../../src/assets/all-images/webbgimg1.png)",
+              backgroundImage: "url(src/assets/all-images/webbgimg1.png)",
             }}
           >
             <img

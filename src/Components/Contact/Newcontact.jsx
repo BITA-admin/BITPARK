@@ -1,5 +1,11 @@
-import Contact_Us from "../../assets/all-images/NewContact.jpg";
-// import Contact_us from "../../assets/all-images/Contact_us_12.png";
+import Contact_Us from "../../assets/all-images/NewContact.png";
+
+// import React, { useRef, useState } from "react";
+// import emailJs from "@emailjs/browser";
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
+import { message } from "antd";
+
 import {
   //   IoCall,
   //   IoMail,
@@ -16,12 +22,63 @@ import { defineElement } from "@lordicon/element";
 defineElement(lottie.loadAnimation);
 
 const Newcontact = () => {
+  // mailjs
+
+  const [formData, setFormData] = useState({
+    user_name: "",
+    user_email: "",
+    user_phone: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const clearFormFields = () => {
+    setFormData({
+      user_name: "",
+      user_email: "",
+      user_phone: "",
+      message: "",
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .send(
+        "service_1eb5elh", // Replace with your EmailJS service ID
+        "template_5m2y84s", // Replace with your EmailJS template ID
+        formData,
+        "YxP4X05UHXB7tHCur" // Replace with your EmailJS user ID
+      )
+      .then((res) => {
+        message.success("Email sent successfully", res);
+        clearFormFields();
+        setTimeout(() => {
+          message.destroy();
+        }, 3000);
+      })
+      .catch((err) => {
+        message.error("Try again...!!!", err);
+        setTimeout(() => {
+          message.destroy();
+        }, 3000);
+      });
+  };
+
   return (
     <div className="relative">
       <div className=" flex h-[120svh] lg:h-screen">
         <img
           src={Contact_Us}
-          alt="image"
+          alt="bitpark-contact"
           className="h-full w-full object-cover object-center"
         />
 
@@ -142,7 +199,10 @@ const Newcontact = () => {
         </div>
         <div className="absolute lg:top-[14%] lg:right-48 xl:w-2/6 w-[90%]   top-[48%]  md:py-10  z-10  ml-5">
           {/* <img src={Contact_us} alt="Contact_Banner" className="" /> */}
-          <form className="mb-12 w-full shrink-0 grow-0 basis-auto  border_glow p-5 rounded-lg">
+          <form
+            onSubmit={handleSubmit}
+            className="mb-12 w-full shrink-0 grow-0 basis-auto  border_glow p-5 rounded-lg"
+          >
             <div className="mb-3 w-full">
               <label
                 className="block font-extrabold mb-[2px] text-blueColor"
@@ -154,6 +214,10 @@ const Newcontact = () => {
                 type="text"
                 className="px-2 py-2 border w-full outline-none rounded-md"
                 placeholder="Name"
+                name="user_name"
+                required
+                value={formData.user_name}
+                onChange={handleChange}
               />
             </div>
 
@@ -167,7 +231,12 @@ const Newcontact = () => {
               <input
                 type="tel"
                 className="px-2 py-2 border w-full outline-none rounded-md"
-                placeholder="Number"
+                name="user_phone"
+                pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                placeholder="Phone"
+                value={formData.user_phone}
+                title="Please enter a valid phone number"
+                onChange={handleChange}
               />
             </div>
 
@@ -181,7 +250,11 @@ const Newcontact = () => {
               <input
                 type="email"
                 className="px-2 py-2 border w-full outline-none rounded-md"
-                placeholder="Enter your email address"
+                required
+                placeholder="Email"
+                name="user_email"
+                value={formData.user_email}
+                onChange={handleChange}
               />
             </div>
 
@@ -194,13 +267,15 @@ const Newcontact = () => {
               </label>
               <textarea
                 className="px-2 py-8 border rounded-[5px] w-full outline-none"
-                name=""
-                id=""
+                placeholder="Message Here..."
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
               ></textarea>
             </div>
 
             <button
-              type="button"
+              type="submit"
               className="mb-6 inline-block w-full rounded bg-blueColor px-6 py-2.5 font-medium uppercase leading-normal text-white hover:shadow-md hover:bg-blueColor hover:text-slate-900"
             >
               Send

@@ -1,13 +1,11 @@
-// import Contact_Us from "../../assets/all-images/uiuxbanner.jpg";
-// import Contact_Us from "../../assets/all-images/uiuxbanner.jpg";
-import Contact_Us from "../../../assets/all-images/Web_banner.jpg";
+import Contact_Us from "../../../assets/all-images/Web_banner.png";
 //  default Application_banner;
 export const WebBanner = () => {
   return (
     <div className="relative flex h-screen">
       <img
         src={Contact_Us}
-        alt="image"
+        alt="webdevelopment"
         className="h-full w-full object-cover "
       />
       <section className=" p-2 text-center lg:text-left flex justify-end mx-auto  pt-44 md:pt-28 absolute top-20 right-15 max-w-[35rem]  md:right-44 z-10">
@@ -29,7 +27,7 @@ export const WebBanner = () => {
               href="/contactus"
               className=" animate-bounce focus:animate-none hover:animate-none inline-flex text-md font-medium bg-blueColor mt-3 px-4 py-2 rounded-lg tracking-wide text-white"
             >
-              <span class="ml-2 ">Start the Conversation Today </span>
+              <span className="ml-2 ">Start the Conversation Today </span>
             </a>
           </div>
         </div>

@@ -59,11 +59,7 @@ function ItoutSourcing_service() {
 
         {/* main div2 */}
 
-        <div
-          className="pb-[3%] px-3"
-          // style={{ backgroundImage: "url(../../src/assets/all-images/itosservice-bgimg1.jpg )" }}
-          // style={{ background: 'radial-gradient(circle, rgba(49,67,156,1) 0%, rgba(15,23,42,1) 100%)' }}
-        >
+        <div className="pb-[3%] px-3">
           <h1 className="py-[4%] text-center text-3xl font-bold text-[#008DDA]">
             Our Outsourced Services For Small Business
           </h1>

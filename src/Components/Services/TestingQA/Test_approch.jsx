@@ -41,7 +41,10 @@ const Test_approch = () => {
               </ul>
             </div>
             <div className="transition-all duration-300 ease-in-out hover:scale-105   lg:pb-0 w-96 h-96 lg:w-[26rem] lg:h-[27rem]">
-              <img src={requiermentanalysis_tandqa} />
+              <img
+                src={requiermentanalysis_tandqa}
+                alt="Requirement Analysis"
+              />
             </div>
           </div>
         </div>
@@ -68,7 +71,7 @@ const Test_approch = () => {
               </ul>
             </div>
             <div className="transition-all duration-300 ease-in-out hover:scale-105   lg:pb-0 w-96 h-96 lg:w-[26rem] lg:h-[27rem]">
-              <img src={testingplan_tandqa} />
+              <img src={testingplan_tandqa} alt="Test Planning" />
             </div>
           </div>
         </div>
@@ -95,7 +98,7 @@ const Test_approch = () => {
               </ul>
             </div>
             <div className="transition-all duration-300 ease-in-out hover:scale-105   lg:pb-0 w-96 h-96 lg:w-[30rem] lg:h-[27rem] lg:pt-10">
-              <img src={environmentsetup_tandqa} />
+              <img src={environmentsetup_tandqa} alt="Environment Setup" />
             </div>
           </div>
         </div>
@@ -124,7 +127,7 @@ const Test_approch = () => {
               </ul>
             </div>
             <div className="transition-all duration-300 ease-in-out hover:scale-105   lg:pb-0 w-96 h-96 lg:w-[26rem] lg:h-[27rem]">
-              <img src={testcasedesign_tandqa} />
+              <img src={testcasedesign_tandqa} alt="Test Case Design" />
             </div>
           </div>
         </div>
@@ -152,7 +155,7 @@ const Test_approch = () => {
               </ul>
             </div>
             <div className="transition-all duration-300 ease-in-out hover:scale-105   lg:pb-0 w-96 h-96 lg:w-[28rem] lg:h-[27rem] lg:pt-10">
-              <img src={testexecution_tandqa} />
+              <img src={testexecution_tandqa} alt="Test Execution" />
             </div>
           </div>
         </div>
@@ -180,7 +183,7 @@ const Test_approch = () => {
               </ul>
             </div>
             <div className="transition-all duration-300 ease-in-out hover:scale-105   lg:pb-0 w-96 h-96 lg:w-[26rem] lg:h-[27rem]">
-              <img src={resultanalysis_tandqa} />
+              <img src={resultanalysis_tandqa} alt="Result Analysis" />
             </div>
           </div>
         </div>
@@ -208,7 +211,7 @@ const Test_approch = () => {
               </ul>
             </div>
             <div className="transition-all duration-300 ease-in-out hover:scale-105   lg:pb-0 w-96 h-96 lg:w-[26rem] lg:h-[27rem]">
-              <img src={regressiontesting_tandqa} />
+              <img src={regressiontesting_tandqa} alt="Regression Testing" />
             </div>
           </div>
         </div>
@@ -238,7 +241,10 @@ const Test_approch = () => {
             </div>
             <div>
               <div className="transition-all duration-300 ease-in-out hover:scale-105   lg:pb-0 w-96 h-96 lg:w-[26rem] lg:h-[27rem]">
-                <img src={performancetesting_tandqa} />
+                <img
+                  src={performancetesting_tandqa}
+                  alt="Performance Testing"
+                />
               </div>
             </div>
           </div>
@@ -269,7 +275,7 @@ const Test_approch = () => {
             </div>
             <div>
               <div className="transition-all duration-300 ease-in-out hover:scale-105   lg:pb-0 w-96 h-96 lg:w-[26rem] lg:h-[27rem]">
-                <img src={securitytesting_tandqa} />
+                <img src={securitytesting_tandqa} alt="Security Testing" />
               </div>
             </div>
           </div>
@@ -300,7 +306,7 @@ const Test_approch = () => {
             </div>
             <div>
               <div className="transition-all duration-300 ease-in-out hover:scale-105   lg:pb-0 w-96 h-96 lg:w-[26rem] lg:h-[27rem]">
-                <img src={documentation_tandqa} />
+                <img src={documentation_tandqa} alt="Documentation" />
               </div>
             </div>
           </div>
@@ -331,7 +337,10 @@ const Test_approch = () => {
             </div>
             <div>
               <div className="transition-all duration-300 ease-in-out hover:scale-105   lg:pb-0 w-96 h-96 lg:w-[26rem] lg:h-[27rem]">
-                <img src={feedbackanditeration_tandqa} />
+                <img
+                  src={feedbackanditeration_tandqa}
+                  alt="Feedback and Iteration"
+                />
               </div>
             </div>
           </div>
@@ -362,7 +371,7 @@ const Test_approch = () => {
             </div>
             <div>
               <div className="transition-all duration-300 ease-in-out hover:scale-105   lg:pb-0 w-96 h-96 lg:w-[26rem] lg:h-[27rem]">
-                <img src={FinalValidation_tandqa} />
+                <img src={FinalValidation_tandqa} alt="Final Validation" />
               </div>
             </div>
           </div>

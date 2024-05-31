@@ -9,7 +9,6 @@ import { FaHandshake } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-// import { Link } from "react-router-dom";
 
 const Our_Serivces = () => {
   useEffect(() => {

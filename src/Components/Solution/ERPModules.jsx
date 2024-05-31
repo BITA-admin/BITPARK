@@ -1,5 +1,3 @@
-import React from "react";
-
 const ERPModules = () => {
   return (
     <div>
@@ -8,9 +6,6 @@ const ERPModules = () => {
           <div className="relative py-16 px-8 bg-yelloww overflow-hidden rounded-3xl">
             <div className="relative z-10 md:max-w-7xl mx-auto">
               <div className="md:max-w-xl mb-10">
-                {/* <span className="inline-block mb-5 text-md text-mygray font-bold uppercase tracking-widest">
-                  ERP Modules
-                </span> */}
                 <h2 className="font-heading text-mygray text-4xl lg:text-5xl font-bold font-heading text-white">
                   ERP Modules
                 </h2>

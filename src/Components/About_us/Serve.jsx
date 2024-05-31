@@ -17,14 +17,10 @@ const Serve = () => {
   return (
     <>
       <div className="w-full ">
-        {/* <div className="bg-red-300"> */}
         <h2 className="my-6 text-2xl tracking-tight font-bold text-blueColor sm:text-3xl md:text-4xl text-center">
           WHOM WE SERVE
         </h2>
-        <div
-          className="items-center w-full md:w-10/12 grid-cols-2 mx-auto overflow-x-hidden lg:grid md:pt-12 lg:pt-24 xl:pt-14"
-          // data-aos="fade-right"
-        >
+        <div className="items-center w-full md:w-10/12 grid-cols-2 mx-auto overflow-x-hidden lg:grid md:pt-12 lg:pt-24 xl:pt-14">
           <div className="pr-2 md:mb-0 py-8 md:py-0  text-center">
             <h1 className="text-3xl font-semibold text-blueColor xl:text-4xl lg:text-3xl ">
               Non - IT Enterprises
@@ -45,12 +41,8 @@ const Serve = () => {
             </div>
           </div>
         </div>
-        {/* </div> */}
 
-        <div
-          className="items-center  w-full md:w-10/12 grid-cols-2 mx-auto overflow-x-hidden lg:grid md:pb-12 lg:pb-24 xl:pb-14"
-          // data-aos="fade-left"
-        >
+        <div className="items-center  w-full md:w-10/12 grid-cols-2 mx-auto overflow-x-hidden lg:grid md:pb-12 lg:pb-24 xl:pb-14">
           <div className=" overflow-hidden">
             <div
               className="transition-all duration-300 ease-in-out hover:scale-105 lg:w-full sm:mx-auto sm:w-4/6 sm:pb-5 lg:pb-0"

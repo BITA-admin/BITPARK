@@ -1,21 +1,15 @@
-import React from "react";
 import Deployment from "../../../assets/all-images/Deployment.png";
 import Lottie from "lottie-react";
-import requirments from "../MobileApplication/callgathering.json";
-import Planing from "../MobileApplication/Planing.json";
-import Requirment from "../MobileApplication/Requirment.json";
-import Development from "../MobileApplication/Development.json";
-import Testing from "../MobileApplication/Testing.json";
-import Lanching from "../MobileApplication/Lanching.json";
-import update from "../MobileApplication/Update_1.json";
-import Optimizing from "../MobileApplication/Optimizing.json";
+import requirments from "../MobileApplication/MobileApplication_json/callgathering.json";
+import Planing from "../MobileApplication/MobileApplication_json/Planing.json";
+import Requirment from "../MobileApplication/MobileApplication_json/Requirment.json";
+import Development from "../MobileApplication/MobileApplication_json/Development.json";
+import Testing from "../MobileApplication/MobileApplication_json/Testing.json";
+import Lanching from "../MobileApplication/MobileApplication_json/Lanching.json";
+import update from "../MobileApplication/MobileApplication_json/Update_1.json";
+import Optimizing from "../MobileApplication/MobileApplication_json/Optimizing.json";
 
-// import { FaRegHandPointRight } from "react-icons/fa6";
-// import { IoMdReturnRight } from "react-icons/io";
-// import { FcDownRight } from "react-icons/fc";
 import { TiTickOutline } from "react-icons/ti";
-
-// import { FaRegHandPointRight } from "react-icons/fa";
 
 const Approach = () => {
   return (
@@ -242,7 +236,7 @@ const Approach = () => {
               </ul>
             </div>
             <div className="transition-all duration-300 ease-in-out hover:scale-105   lg:pb-0 w-96 h-96 lg:w-[26rem] lg:h-[27rem]">
-              <img src={Deployment} />
+              <img src={Deployment} alt="Deployment" />
             </div>
           </div>
         </div>

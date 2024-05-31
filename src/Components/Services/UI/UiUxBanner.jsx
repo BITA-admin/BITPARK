@@ -1,13 +1,11 @@
-// import Contact_Us from "../../assets/all-images/uiuxbanner.jpg";
-// import Contact_Us from "../../assets/all-images/uiuxbanner.jpg";
-import Contact_Us from "../../../assets/all-images/uiuxbanner.jpg";
+import Contact_Us from "../../../assets/all-images/uiuxbanner.png";
 
 const UiUxBanner = () => {
   return (
     <div className="relative flex h-screen">
       <img
         src={Contact_Us}
-        alt="image"
+        alt="uiux"
         className="h-full w-full object-cover "
       />
       <section className=" p-2 text-center lg:text-left grid md:grid-cols-2 mx-auto gap-10 pt-44 md:pt-28 absolute top-20 left-10 max-w-full md:left-44 z-10">
@@ -20,9 +18,7 @@ const UiUxBanner = () => {
               <br />
               <span className="text-[18px] text-gray-300 font-bold">
                 Harness our Comprehensive UI/UX Services for Web and Mobile
-                Apps.
-                {/* <br /> */}
-                From start to finish, we're here to elevate your digital
+                Apps. From start to finish, we're here to elevate your digital
                 presence.
               </span>
             </div>
@@ -43,11 +39,3 @@ const UiUxBanner = () => {
 };
 
 export default UiUxBanner;
-{
-  /* <a
-            href="#"
-            className="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
-          >
-            Get Started
-          </a> */
-}

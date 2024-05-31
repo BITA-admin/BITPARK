@@ -1,6 +1,5 @@
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
-// import Contact_Us from "../../assets/all-images/uiuxbanner.jpg";
 
 const It_approch = () => {
   return (
@@ -29,7 +28,7 @@ const KoriZontalScrollCarousels = () => {
       <div className="sticky top-0 flex h-screen items-center overflow-hidden">
         <motion.div style={{ x }} className="flex gap-4">
           {cardss.map((Cards) => {
-            return <Kard Cards={Cards} />;
+            return <Kard Cards={Cards} key={Cards.id} />;
           })}
         </motion.div>
       </div>
@@ -65,39 +64,44 @@ export default It_approch;
 
 const cardss = [
   {
-    url: "../../../src/assets/all-images/webs-planning.jpeg",
+    url: "src/assets/all-images/webs-planning.png",
     titles: "Planning",
-
+    id: 1,
     lines:
       "Establish project objectives,Collect client feedback and study,Detail the project plan and timetable.",
   },
   {
-    url: "../../../src/assets/all-images/webs-design.jpeg",
+    url: "src/assets/all-images/webs-design.png",
     titles: "Design:",
+    id: 2,
     lines:
       "Use wireframes and mockups to envision website layout,Select colors, fonts, and images,Make designs responsive and user-friendly.",
   },
   {
-    url: "../../../src/assets/all-images/webs-development.jpeg",
+    url: "src/assets/all-images/webs-development.png",
     titles: " The Development Process:",
+    id: 3,
     lines:
       "Develop the website's front-end using HTML, CSS, and JavaScript.Back-end Development: Use PHP, Python, or Node,js to build server functions,Integrate databases to store and manage website data.",
   },
   {
-    url: "../../../src/assets/all-images/webs-testing&qa.jpeg",
+    url: "src/assets/all-images/webs-testing&qa.png",
     titles: "Testing & QA:",
+    id: 4,
     lines:
       "Test thoroughly to find and repair bugs,Maintain cross-browser responsiveness,Test usability to evaluate user experience.",
   },
   {
-    url: "../../../src/assets/all-images/webs-deployandlaunch.jpeg",
+    url: "src/assets/all-images/webs-deployandlaunch.png",
     titles: "Deploy and Launch:",
+    id: 5,
     lines:
       "Optimize code and assets for deployment,Select a hosting platform and configure servers,Finally deploy and test the website on the live server,Staff training on new technologies and processes,Facilitating adoption and use through change management.",
   },
   {
-    url: "../../../src/assets/all-images/webs-postlaunchmaintenance.png",
+    url: "src/assets/all-images/webs-postlaunchmaintenance.png",
     titles: "Post-Launch Maintenance :",
+    id: 6,
     lines:
       "Website security and performance require continual care and maintenance,To improve, track website metrics and user comments,Update and improve as needed.",
   },

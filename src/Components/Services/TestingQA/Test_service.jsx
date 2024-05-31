@@ -1,4 +1,3 @@
-import React from "react";
 import testingandqamenimg1 from "../../../assets/all-images/testingandqamenimg1.png";
 import testingandqasimg1 from "../../../assets/all-images/testingqasimg2.png";
 
@@ -10,9 +9,8 @@ function Test_service() {
           <div
             className="bg-no-repeat bg-cover flex flex-col lg:flex-row justify-around w-auto  items-center"
             style={{
-              backgroundImage: "url(../../../assets/all-images/tqasbgimg1.png)",
+              backgroundImage: "url(src/assets/all-images/tqasbgimg1.png)",
             }}
-            // style={{ backgroundImage: "url(../../src/assets/all-images/webbgimg1.png)" }}
           >
             <img
               src={testingandqamenimg1}

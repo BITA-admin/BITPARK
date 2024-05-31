@@ -1,5 +1,3 @@
-import React from "react";
-// import appmoniterimg1 from '../../src/assets/all-images/app-moniterimg1.png'
 import appmonitermenimg1 from "../../../assets/all-images/itconsultinggirlimg2.1.png";
 import appmonitersimg1 from "../../../assets/all-images/app-monitersimg1.png";
 import appmonitersimg2 from "../../../assets/all-images/app-monitersimg2.png";
@@ -13,8 +11,7 @@ function Application_service() {
         <div
           className=""
           style={{
-            backgroundImage:
-              "url(../../src/assets/all-images/app-moniterbgimg1.png)",
+            backgroundImage: "url(src/assets/all-images/app-moniterbgimg1.png)",
           }}
         >
           <div className=" relative flex flex-col lg:flex-row justify-around w-auto  items-center bg-black/60">
@@ -38,7 +35,6 @@ function Application_service() {
         <div className=" bg-slate-900">
           <div className="px-4 py-8">
             <div className=" my-4 flex flex-col lg:flex-row justify-around items-center ">
-              {/* <img src={appmonitersimg1} alt="image" className='w-[40%]'/> */}
               <img
                 src={appmonitersimg1}
                 alt="image"

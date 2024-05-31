@@ -1,13 +1,11 @@
-// import Contact_Us from "../../assets/all-images/uiuxbanner.jpg";
-// import Contact_Us from "../../assets/all-images/uiuxbanner.jpg";
-import Contact_Us from "../../../assets/all-images/it-conbanner.jpg";
+import Contact_Us from "../../../assets/all-images/it-conbanner.png";
 //  default Application_banner;
 export const ITConsultingbanner = () => {
   return (
     <div className="relative flex h-screen">
       <img
         src={Contact_Us}
-        alt="image"
+        alt="itconsultancy"
         className="h-full w-full object-cover "
       />
       <section className=" p-2 text-center lg:text-left flex justify-end mx-auto  pt-44 md:pt-28 absolute top-10 right-15 max-w-[35rem]  md:right-44 z-10">
@@ -26,9 +24,9 @@ export const ITConsultingbanner = () => {
           <div className="flex flex-wrap justify-center cursor-pointer gap-6">
             <a
               href="/contactus"
-              class=" animate-bounce focus:animate-none hover:animate-none inline-flex text-md font-medium bg-blueColor mt-3 px-4 py-2 rounded-lg tracking-wide text-white"
+              className=" animate-bounce focus:animate-none hover:animate-none inline-flex text-md font-medium bg-blueColor mt-3 px-4 py-2 rounded-lg tracking-wide text-white"
             >
-              <span class="ml-2 ">Schedule Your Consultation Now! </span>
+              <span className="ml-2 ">Schedule Your Consultation Now! </span>
             </a>
           </div>
         </div>

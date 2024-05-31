@@ -1,7 +1,7 @@
 import React from "react";
 
-import v2 from "../../assets/all-images/vision_5.jpg";
-import v3 from "../../assets/all-images/vission_7.jpg";
+import v2 from "../../assets/all-images/vision_5.png";
+import v3 from "../../assets/all-images/vission_7.png";
 import { TbEye } from "react-icons/tb";
 import { TbRadar } from "react-icons/tb";
 
@@ -30,7 +30,7 @@ const Vision = () => {
 
         <img
           src={v2}
-          alt="image"
+          alt="VISION"
           className="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full "
         />
       </li>
@@ -66,7 +66,7 @@ const Vision = () => {
 
         <img
           src={v3}
-          alt="image"
+          alt="MISSION"
           className="mb-6 shadow-md rounded-lg bg-slate-50 w-full sm:w-[17rem] sm:mb-0 xl:mb-6 xl:w-full "
         />
       </li>

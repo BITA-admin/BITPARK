@@ -12,7 +12,7 @@ const Our_Sister = () => {
 
             <div className="mx-auto mt-6 max-w-xl flex items-center justify-center ">
               <a href="https://bitaacademy.com/" target="_blank" className="">
-                <img src={logo} alt="logo" className=" h-20 w-44" />
+                <img src={logo} alt="bita" className=" h-20 w-44" />
               </a>
             </div>
 

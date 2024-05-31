@@ -1,10 +1,9 @@
 const Solution_banner = () => {
   return (
     <div class="relative h-screen w-full">
-      {/* <img  alt="Background Image"> */}
       <img
-        src="src/assets/all-images/standard-quality-control-concept-m.jpg"
-        alt="image"
+        src="src/assets/all-images/standard-quality-control-concept-m.png"
+        alt="bitpark-Solution"
         class="absolute inset-0 w-full h-full object-cover filter blur-sm"
       />
       <div class="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -21,11 +20,3 @@ const Solution_banner = () => {
 };
 
 export default Solution_banner;
-{
-  /* <a
-            href="#"
-            className="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
-          >
-            Get Started
-          </a> */
-}

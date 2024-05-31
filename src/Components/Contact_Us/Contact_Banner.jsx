@@ -1,4 +1,4 @@
-import Contact_Us from "../../assets/all-images/email-6370595_1280.jpg";
+import Contact_Us from "../../assets/all-images/email-6370595_1280.png";
 import Contact_us from "../../assets/all-images/Contact_us_12.png";
 
 const Sample = () => {
@@ -7,7 +7,7 @@ const Sample = () => {
       <div className="relative flex h-screen">
         <img
           src={Contact_Us}
-          alt="image"
+          alt="bitpark-Contact_us"
           className="h-full w-full object-cover object-center"
         />
         <div className="absolute top-1/2 left-20 max-w-full md:left-44 z-10">

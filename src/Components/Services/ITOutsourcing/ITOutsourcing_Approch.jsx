@@ -1,8 +1,6 @@
 import Lottie from "lottie-react";
 
 import AssessYourNeeds from "../ITOutsourcing/outsourcing_json/AssessYourNeeds.json";
-import Objectives from "../ITOutsourcing/outsourcing_json/AssessYourNeeds.json";
-// import Research from "../ITOutsourcing/outsourcing_json/ResearchPotentialProviders.json";
 import AssessCapabilities from "../ITOutsourcing/outsourcing_json/AssessCapabilities.json";
 import Communication from "../ITOutsourcing/outsourcing_json/EstablishCommunicationChannels.json";
 import MonitorPerformance from "../ITOutsourcing/outsourcing_json/MonitorPerformance.json";
@@ -11,7 +9,7 @@ import AdjustNeeded from "../ITOutsourcing/outsourcing_json/AdjustNeeded.json";
 import MaintainRelationship from "../ITOutsourcing/outsourcing_json/MaintainRelationship.json";
 import MeasureResults from "../ITOutsourcing/outsourcing_json/MeasureResults.json";
 
-import defineobjective_itos from "../../../assets/all-images/defineobjective-itos.jpg";
+import defineobjective_itos from "../../../assets/all-images/defineobjective-itos.png";
 import Itos_rpp from "../../../assets/all-images/Itos_rpp.png";
 
 import { TiTickOutline } from "react-icons/ti";
@@ -79,7 +77,7 @@ const ITOutsourcing_Approch = () => {
             <div>
               {/* <div className="transition-all duration-300 ease-in-out hover:scale-105   lg:pb-0 w-96 h-96 lg:w-[29rem] lg:h-[29rem]"> */}
               <div className="transition-all duration-300 ease-in-out hover:scale-105 mt-10 lg:w-full sm:mx-auto sm:w-4/6 sm:pb-12 lg:pb-0">
-                <img src={defineobjective_itos} />
+                <img src={defineobjective_itos} alt="Define Objectives" />
               </div>
               {/* </div> */}
             </div>
@@ -111,12 +109,9 @@ const ITOutsourcing_Approch = () => {
               </ul>
             </div>
             <div>
-              {/* <div className="transition-all duration-300 ease-in-out hover:scale-105   lg:pb-0 w-96 h-96 lg:w-[2rem] lg:h-[22rem]"> */}
               <div className="transition-all duration-300 ease-in-out hover:scale-105   lg:pb-0 w-96 h-96 lg:w-[28rem] lg:h-[27rem]  ">
-                {/* <Lottie loop={true} animationData={Research} /> */}
-                <img src={Itos_rpp} />
+                <img src={Itos_rpp} alt=" Research Potential Providers" />
               </div>
-              {/* </div> */}
             </div>
           </div>
         </div>

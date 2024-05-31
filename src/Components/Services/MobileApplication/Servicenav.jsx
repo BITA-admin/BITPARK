@@ -28,40 +28,30 @@ export const Servicenav = () => {
           <Link
             heading="Expertise:"
             subheading="Seasoned professionals in iOS, Android, and hybrid frameworks."
-            //imgSrc="src/assets/all-images/Abt.jpg"
-            //   href="#"
           />
         </div>
         <div onClick={() => setIsOpe(true)}>
           <Link
             heading="Custom Solutions:  "
             subheading="Tailored development for native, cross-platform, or progressive web apps."
-            //imgSrc="src/assets/all-images/Abt.jpg"
-            //   href="#"
           />
         </div>
         <div onClick={() => setIsOp(true)}>
           <Link
             heading="User-Centric Design:"
             subheading="  Intuitive interfaces for enhanced engagement and satisfaction."
-            //imgSrc="src/assets/all-images/Abt.jpg"
-            //   href="#"
           />
         </div>
         <div onClick={() => setIsO(true)}>
           <Link
             heading="Agile Development:"
             subheading="Flexible, transparent, and collaborative approach."
-            //imgSrc="src/assets/all-images/Abt.jpg"
-            //   href="#"
           />
         </div>
         <div onClick={() => setIs(true)}>
           <Link
             heading="Quality Assurance: "
             subheading="Rigorous testing for bug-free, optimized performance."
-            //imgSrc="src/assets/all-images/Abt.jpg"
-            //   href="#"
           />
         </div>
 
@@ -94,9 +84,6 @@ const SpringModal = ({ isOpen, setIsOpen }) => {
           >
             <FiAlertCircle className="text-white/10 rotate-12 text-[250px] absolute z-0 -top-24 -left-24" />
             <div className="relative z-10">
-              {/* <div className="bg-white w-16 h-16 mb-2 rounded-full text-3xl text-blueColor grid place-items-center mx-auto">
-                <FiAlertCircle />
-              </div> */}
               <h3 className="text-3xl font-bold text-center mb-2">
                 Expertise:
               </h3>
@@ -144,9 +131,6 @@ const SpringModal_2 = ({ isOpe, setIsOpe }) => {
           >
             <FiAlertCircle className="text-white/10 rotate-12 text-[250px] absolute z-0 -top-24 -left-24" />
             <div className="relative z-10">
-              {/* <div className="bg-white w-16 h-16 mb-2 rounded-full text-3xl text-blueColor grid place-items-center mx-auto">
-                <FiAlertCircle />
-              </div> */}
               <h3 className="text-3xl font-bold text-center mb-2">
                 Custom Solutions:
               </h3>
@@ -295,9 +279,6 @@ const SpringModal_5 = ({ is, setIs }) => {
           >
             <FiAlertCircle className="text-white/10 rotate-12 text-[250px] absolute z-0 -top-24 -left-24" />
             <div className="relative z-10">
-              {/* <div className="bg-white w-16 h-16 mb-2 rounded-full text-3xl text-blueColor grid place-items-center mx-auto">
-                <FiAlertCircle />
-              </div> */}
               <h3 className="text-3xl font-bold text-center mb-2">
                 Quality Assurance:
               </h3>
@@ -393,23 +374,6 @@ const Link = ({ heading, subheading }) => {
           {subheading}
         </span>
       </div>
-
-      {/* <motion.img
-        style={{
-          top,
-          left,
-          translateX: "-50%",
-          translateY: "-50%",
-        }}
-        variants={{
-          initial: { scale: 0, rotate: "-12.5deg" },
-          whileHover: { scale: 1, rotate: "12.5deg" },
-        }}
-        transition={{ type: "spring" }}
-        // src}
-        className="absolute z-0 h-24 w-32 rounded-lg object-cover md:h-48 md:w-64"
-        alt={`Image representing a link for ${heading}`}
-      /> */}
 
       <motion.div
         variants={{

@@ -1,4 +1,3 @@
-import React from "react";
 import webimg2 from "../../../assets/all-images/webserviceimg2.png";
 import waveimg1 from "../../../assets/all-images/wave-haikei(1).png";
 import uiuxsimg1 from "../../../assets/all-images/uiuxsimg1.png";
@@ -13,10 +12,7 @@ function UiUxService() {
     <>
       <section>
         <div className=" bg-slate-900 relative">
-          <div
-            className="bg-no-repeat bg-cover flex flex-col lg:flex-row justify-around w-auto py-[5%] items-center"
-            // style={{ backgroundImage: "url(../../src/assets/all-images/webbgimg1.png)" }}
-          >
+          <div className="bg-no-repeat bg-cover flex flex-col lg:flex-row justify-around w-auto py-[5%] items-center">
             <img
               src={webimg2}
               alt="image"
@@ -41,7 +37,6 @@ function UiUxService() {
         </div>
         <div
           className="py-[50px]"
-          // style={{ backgroundImage: "url(../../src/assets/all-images/uiuxsbg1.png)", backgroundSize:"contain"}}
           style={{
             background:
               "linear-gradient(0deg, rgba(0,2,107,1) 46%, rgba(0,193,198,1) 100%)",

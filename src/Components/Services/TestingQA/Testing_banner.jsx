@@ -1,11 +1,11 @@
-import Contact_Us from "../../../assets/all-images/testing_banner.jpg";
+import Contact_Us from "../../../assets/all-images/testing_banner.png";
 
 const Testing_banner = () => {
   return (
     <div className="relative flex h-screen">
       <img
         src={Contact_Us}
-        alt="image"
+        alt="Testing and QA"
         className="h-full w-full object-cover "
       />
       <section className=" grid md:grid-cols-2 mx-auto gap-10 md:pt-28 pt-44 absolute top-20 left-12 max-w-full md:left-44 z-10">
@@ -27,9 +27,9 @@ const Testing_banner = () => {
           <div className="flex flex-wrap justify-center  gap-6">
             <a
               href="/contactus"
-              class="animate-bounce focus:animate-none hover:animate-none inline-flex text-md font-medium bg-blueColor mt-3 px-4 py-2 rounded-lg tracking-wide text-white"
+              className="animate-bounce focus:animate-none hover:animate-none inline-flex text-md font-medium bg-blueColor mt-3 px-4 py-2 rounded-lg tracking-wide text-white"
             >
-              <span class="ml-2">Schedule a consultation</span>
+              <span className="ml-2">Schedule a consultation</span>
             </a>
           </div>
         </div>

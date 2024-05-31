@@ -1,14 +1,14 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
 /* @import url("https://fonts.googleapis.com/css?family=Bungee+Inline"); */
-@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap"); */
 /* @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700"); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   font-family: "Rajdhani";
-}
+} */
 /* .glow {
   transition: all 0.3s ease-in-out;
 }

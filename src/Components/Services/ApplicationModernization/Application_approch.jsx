@@ -1,14 +1,13 @@
-import TestingValidation from "./TestingValidation.json";
+import TestingValidation from "./ApplicationModernization_json/TestingValidation.json";
 import Lottie from "lottie-react";
-import MonitorOptimize from "./MonitorOptimize.json";
-import DevelopMigration from "./DevelopMigration.json";
-import ChooseCloud from "./ChooseCloud.json";
-import DataMigration from "./DataMigration.json";
-import FutureProofing from "./FutureProofing.json";
-import SuccessMetrics from "./SuccessMetrics.json";
-import CollaborationSupport from "./CollaborationSupport.json";
-import AgileDevelopment from "./AgileDevelopment.json";
-// import Testingvalidation from "./TestingValidation.json";
+import MonitorOptimize from "./ApplicationModernization_json/MonitorOptimize.json";
+import DevelopMigration from "./ApplicationModernization_json/DevelopMigration.json";
+import ChooseCloud from "./ApplicationModernization_json/ChooseCloud.json";
+import DataMigration from "./ApplicationModernization_json/DataMigration.json";
+import FutureProofing from "./ApplicationModernization_json/FutureProofing.json";
+import SuccessMetrics from "./ApplicationModernization_json/SuccessMetrics.json";
+import CollaborationSupport from "./ApplicationModernization_json/CollaborationSupport.json";
+import AgileDevelopment from "./ApplicationModernization_json/AgileDevelopment.json";
 
 import { TiTickOutline } from "react-icons/ti";
 

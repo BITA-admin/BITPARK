@@ -35,7 +35,7 @@ const HoriZontalScrollsCarousels = () => {
       <div className="sticky top-0 flex h-screen items-center overflow-hidden">
         <motion.div style={{ x }} className="flex gap-4">
           {cards.map((Cards) => {
-            return <Cardd Cards={Cards} />;
+            return <Cardd Cards={Cards} key={Cards.id} />;
           })}
         </motion.div>
       </div>
@@ -70,45 +70,51 @@ export default Approach_uiux;
 
 const cards = [
   {
-    url: "../../../src/assets/all-images/Research&Discovery-uiux.jpg",
+    url: "src/assets/all-images/Research&Discovery-uiux.png",
     titles: "Research & Discovery ",
-
+    id: 1,
     lines:
       "Understand client needs, Examine target audience, Market and competition analysis, Plan and Strategize.",
   },
   {
-    url: "../../../src/assets/all-images/Planning&Strategy-uiux.jpg",
+    url: "src/assets/all-images/Planning&Strategy-uiux.png",
     titles: "Planning&Strategy",
+    id: 2,
     lines:
       "Establish project objectives, Develop user stories and personas, Project roadmap and timeline.",
   },
   {
-    url: "../../../src/assets/all-images/wireframe-uiux.jpg",
+    url: "src/assets/all-images/wireframe-uiux.png",
     titles: "Wireframing",
+    id: 3,
     lines:
       "Make low-fidelity wireframes, Plan a simple layout and structure, Prioritize function above aesthetics.",
   },
   {
-    url: "../../../src/assets/all-images/Prototype-uiux.png",
+    url: "src/assets/all-images/Prototype-uiux.png",
     titles: "Prototyping",
+    id: 4,
     lines:
       "Create interactive prototypes, Add basic user testing functionality, Improve navigation and flows.",
   },
   {
-    url: "../../../src/assets/all-images/vishuldesign-uiux.jpeg",
+    url: "src/assets/all-images/vishuldesign-uiux.png",
     titles: "Visual Design",
+    id: 5,
     lines:
       "Branding elements, Create realistic mockups, Prioritize aesthetics, typography, and color.",
   },
   {
-    url: "../../../src/assets/all-images/usabilitytesting-uiux.jpeg",
+    url: "src/assets/all-images/usabilitytesting-uiux.png",
     titles: "Usability Testing",
+    id: 6,
     lines:
       "Get user feedback, Finding problems and ways to improve, Design iterations based on customer feedback.",
   },
   {
-    url: "../../../src/assets/all-images/uideliverablestodeveloper-uiux.png",
+    url: "src/assets/all-images/uideliverablestodeveloper-uiux.png",
     titles: "UI Deliverables to Developer",
+    id: 7,
     lines:
       "Style guide, Mockups, Prototypes, Assets, Component Library, Responsive Design Guidelines, Documentation.",
   },

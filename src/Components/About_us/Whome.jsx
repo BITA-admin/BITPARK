@@ -18,23 +18,23 @@ const Whome = () => {
           <div className="grid grid-cols-2 md:grid-cols-2 gap-3 p-4 max-w-[700px] place-items-center">
             <img
               src={inquiry}
-              alt="logo"
+              alt="Initiate an inquiry to us"
               className=" w-48 h-48 hover:scale-110 cursor-pointer transition duration-500 ease-in-out"
             />
 
             <img
               src={Schedule_a_Preliminary_Call}
-              alt="logo"
+              alt="Schedule a Preliminary Call"
               className="w-48 h-48 hover:scale-110 cursor-pointer transition duration-500 ease-in-out"
             />
             <img
               src={Get_a_Proposal}
-              alt="logo"
+              alt="Get a Proposal"
               className="w-48 h-48 hover:scale-110 cursor-pointer transition duration-500 ease-in-out"
             />
             <img
               src={Sign_a_Service_Contract}
-              alt="logo"
+              alt="Sign a Service Contract"
               className="w-48 h-48 hover:scale-110 cursor-pointer transition duration-500 ease-in-out "
             />
           </div>

@@ -21,7 +21,7 @@ const Empower_clients = () => {
             <div className="absolute animate-spin rounded-full h-28 w-28 border-t-8 border-b-8 border-t-slate-700 border-b-blueColor"></div>
             <img
               src={Idea}
-              alt="image"
+              alt="Ideate-EMPOWER CLIENTS"
               className="h-14 w-full object-cover object-top sm:h-42 md:h-14 lg:w-full lg:h-13 "
             />
           </div>
@@ -35,7 +35,7 @@ const Empower_clients = () => {
             <div className="absolute animate-spin rounded-full h-28 w-28 border-t-8 border-b-8 border-t-slate-700 border-b-blueColor"></div>
             <img
               src={Project}
-              alt="image"
+              alt=" Strategic Plan"
               className="h-14 w-full object-cover object-top sm:h-42 md:h-14 lg:w-full lg:h-13 "
             />
           </div>
@@ -48,7 +48,7 @@ const Empower_clients = () => {
             <div className="absolute animate-spin rounded-full h-28 w-28 border-t-8 border-b-8 border-t-slate-700 border-b-blueColor"></div>
             <img
               src={Design}
-              alt="image"
+              alt="Design"
               className="h-14 w-full object-cover object-top sm:h-42 md:h-14 lg:w-full lg:h-13 "
             />
           </div>
@@ -62,7 +62,7 @@ const Empower_clients = () => {
             <div className="absolute animate-spin rounded-full h-28 w-28 border-t-8 border-b-8 border-t-slate-700 border-b-blueColor"></div>
             <img
               src={Code}
-              alt="image"
+              alt="Develop"
               className="h-14 w-full object-cover object-top sm:h-42 md:h-14 lg:w-full lg:h-13 "
             />
           </div>
@@ -75,7 +75,7 @@ const Empower_clients = () => {
             <div className="absolute animate-spin rounded-full h-28 w-28 border-t-8 border-b-8 border-t-slate-700 border-b-blueColor"></div>
             <img
               src={Rest_API}
-              alt="image"
+              alt="Integrate"
               className="h-14 w-full object-cover object-top sm:h-42 md:h-14 lg:w-full lg:h-13 "
             />
           </div>

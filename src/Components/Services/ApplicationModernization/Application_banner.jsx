@@ -1,13 +1,11 @@
-// import Contact_Us from "../../assets/all-images/uiuxbanner.jpg";
-// import Contact_Us from "../../assets/all-images/uiuxbanner.jpg";
-import Contact_Us from "../../../assets/all-images/Application_banner.jpg";
+import Contact_Us from "../../../assets/all-images/Application_banner.png";
 //  default Application_banner;
 export const Application_banner = () => {
   return (
     <div className="relative flex h-screen">
       <img
         src={Contact_Us}
-        alt="image"
+        alt="applicationmodernization"
         className="h-full w-full object-cover "
       />
       <section className=" p-2 text-center lg:text-left flex justify-end mx-auto  pt-44 md:pt-28 absolute top-10 right-15 max-w-[35rem]  md:right-44 z-10">
@@ -27,9 +25,9 @@ export const Application_banner = () => {
           <div className="flex flex-wrap justify-center cursor-pointer gap-6">
             <a
               href="/contactus"
-              class=" animate-bounce focus:animate-none hover:animate-none inline-flex text-md font-medium bg-blueColor mt-3 px-4 py-2 rounded-lg tracking-wide text-white"
+              className=" animate-bounce focus:animate-none hover:animate-none inline-flex text-md font-medium bg-blueColor mt-3 px-4 py-2 rounded-lg tracking-wide text-white"
             >
-              <span class="ml-2 ">Begin the Conversation </span>
+              <span className="ml-2 ">Begin the Conversation </span>
             </a>
           </div>
         </div>
