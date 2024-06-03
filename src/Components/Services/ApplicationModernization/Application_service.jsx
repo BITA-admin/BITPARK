@@ -17,7 +17,7 @@ function Application_service() {
           <div className=" relative flex flex-col lg:flex-row justify-around w-auto  items-center bg-black/60">
             <img
               src={appmonitermenimg1}
-              alt="image"
+              alt="application_modernization"
               className=" w-[100%] md:w-[55%] lg:w-[25%] border-b-4 border-b-white lg:border-none"
             />
             <p className="w-[90%] lg:w-[40%] text-white text-justify leading-8 text-lg py-9 font-sans">
@@ -37,7 +37,7 @@ function Application_service() {
             <div className=" my-4 flex flex-col lg:flex-row justify-around items-center ">
               <img
                 src={appmonitersimg1}
-                alt="image"
+                alt="custom_mobile_application_services"
                 className="object-contain w-[90%] md:w-[50%] lg:w-[40%] h-auto p-5 "
               />
               <div className=" w-[95%] lg:w-1/2 ">
@@ -94,14 +94,14 @@ function Application_service() {
               </div>
               <img
                 src={appmonitersimg2}
-                alt="image"
+                alt="custom_web_application_services"
                 className="object-contain w-[90%] md:w-[50%] lg:w-[40%] h-auto p-5 "
               />
             </div>
             <div className=" my-2 flex flex-col lg:flex-row justify-around items-center ">
               <img
                 src={appmonitersimg3}
-                alt="image"
+                alt="cloud_migration_service"
                 className="object-contain w-[90%] md:w-[50%] lg:w-[40%] h-auto p-5 "
               />
               <div className=" w-[95%] lg:w-1/2 ">

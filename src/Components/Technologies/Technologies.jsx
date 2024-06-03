@@ -4,10 +4,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import techimg1 from "../../assets/all-images/technology_Programming-languages.jpg";
-import techimg2 from "../../assets/all-images/technology-Frame.jpg";
-import techimg3 from "../../assets/all-images/teehnology_database-Tools.jpg";
-import techimg4 from "../../assets/all-images/technology-testing.jpg";
+import techimg1 from "../../assets/all-images/technology_Programming-languages.png";
+import techimg2 from "../../assets/all-images/technology-Frame.png";
+import techimg3 from "../../assets/all-images/teehnology_database-Tools.png";
+import techimg4 from "../../assets/all-images/technology-testing.png";
 
 function Technologies() {
   return (
@@ -33,7 +33,6 @@ function Technologies() {
         </div>
 
         {/* maindiv 2 */}
-
         <div>
           <div>
             <h1 className="pt-9 pb-5 text-center font-bold text-3xl text-slate-700 tracking-[15px]">
@@ -56,7 +55,7 @@ function Technologies() {
           >
             <SwiperSlide>
               <div className="relative">
-                <img src={techimg1} alt="images" />
+                <img src={techimg1} alt="languagestools" />
                 <div className="w-[45%] p-4 rounded-lg absolute top-10 max-[900px]:top-4 max-[890px]:top-22 left-8 max-[900px]:left-4">
                   <h1 className="text-white font-bold text-2xl max-[890px]:text-lg tracking-[12px] max-[890px]:tracking-[5px] uppercase py-2">
                     Languages
@@ -79,7 +78,7 @@ function Technologies() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="relative">
-                <img src={techimg2} alt="images" />
+                <img src={techimg2} alt="frameworktools" />
                 <div className="w-[45%] p-4 rounded-lg absolute top-14 max-[900px]:top-4 max-[890px]:top-22 left-8 max-[900px]:left-4">
                   <h1 className="text-white font-bold text-2xl max-[890px]:text-lg tracking-[12px] max-[890px]:tracking-[5px] uppercase py-2">
                     Framework{" "}
@@ -101,7 +100,7 @@ function Technologies() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="relative">
-                <img src={techimg3} alt="images" />
+                <img src={techimg3} alt="databasetools" />
                 <div className="w-[45%] p-4 rounded-lg absolute top-10 max-[900px]:top-4 max-[890px]:top-22 left-8 max-[900px]:left-4">
                   <h1 className="text-white font-bold text-2xl max-[890px]:text-lg tracking-[12px] max-[890px]:tracking-[5px] uppercase py-2">
                     Database
@@ -124,7 +123,7 @@ function Technologies() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="relative">
-                <img src={techimg4} alt="images" />
+                <img src={techimg4} alt="testingtools" />
                 <div className="w-[45%] p-4 rounded-lg absolute top-8 max-[900px]:top-4 max-[890px]:top-22 left-8 max-[900px]:left-4">
                   <h1 className="text-white font-bold text-2xl max-[890px]:text-lg tracking-[12px] max-[890px]:tracking-[5px] uppercase py-2">
                     Testing{" "}

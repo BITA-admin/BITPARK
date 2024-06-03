@@ -14,7 +14,7 @@ function Test_service() {
           >
             <img
               src={testingandqamenimg1}
-              alt="image"
+              alt="testing_and_qa"
               className=" w-[100%] md:w-[50%] lg:w-[35%] border-b-4 border-b-white lg:border-none"
             />
             <p className="w-[90%] lg:w-[40%] py-9 text-[#fff] text-justify leading-8 text-lg font-sans">
@@ -53,7 +53,7 @@ function Test_service() {
           </div>
           <img
             src={testingandqasimg1}
-            alt="image"
+            alt="api_testing_service"
             className="object-contain w-[90%] md:w-[60%] lg:w-[45%] h-auto p-5 "
           />
         </div>
