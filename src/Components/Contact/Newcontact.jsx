@@ -1,7 +1,5 @@
 import Contact_Us from "../../assets/all-images/NewContact.png";
 
-// import React, { useRef, useState } from "react";
-// import emailJs from "@emailjs/browser";
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { message } from "antd";

@@ -4,7 +4,7 @@ import Home from "./Components/Home/Home";
 import WhyBitPark from "./Components/WhyBitPark/WhyBitPark";
 import Our_Serivces from "./Components/OurServices/Our_Serivces";
 import ClientSays from "./Components/ClientSays/ClientSays";
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 import { BallTriangle } from "react-loader-spinner";
 import Footer from "./Components/Footer/Footer";
 import Empower_clients from "./Components/About_us/Empower_clients";
@@ -26,12 +26,12 @@ import ScrollUp from "./Components/ScrollUp/ScrollUp";
 import AboutUs from "./Components/About_us/AboutUs";
 
 const App = () => {
-  const [loading, setLoading] = useState(false);
-  useEffect(() => {
-    setLoading(true);
+  const [loading, setLoading] = useState(true);
+  useLayoutEffect(() => {
+    // setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 1500);
   }, []);
 
   return (
