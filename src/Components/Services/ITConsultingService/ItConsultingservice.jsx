@@ -25,12 +25,12 @@ function ItConsultingservice() {
           >
             <img
               src={itconsultinggirlimg1}
-              alt="image"
+              alt="it_consulting_services"
               className=" hidden lg:block lg:w-[42%] border-b-4 border-b-white"
             />
             <img
               src={itconsultinggirlimg2}
-              alt="image"
+              alt="it_consulting_services"
               className=" w-[80%] md:w-[40%] block lg:hidden border-b-4 border-b-white"
             />
             <div className="w-[90%] lg:w-[40%] py-9">
@@ -74,7 +74,7 @@ function ItConsultingservice() {
             <div className=" bg-[#fbfcff] w-[420px] flex  my-4 p-6 rounded-lg shadow-xl shadow-[#DDDDDD]">
               <img
                 src={itconsultingsimg1}
-                alt="img"
+                alt="strategic_it_planning"
                 className="w-[60px] self-start"
               />
               <div className="text-[#1E0342] pl-4">
@@ -91,7 +91,7 @@ function ItConsultingservice() {
             <div className=" bg-[#fbfcff] w-[420px] flex  my-4 p-6 rounded-lg shadow-xl shadow-[#DDDDDD]">
               <img
                 src={itconsultingsimg2}
-                alt="img"
+                alt="infrastructure_assessment"
                 className="w-[60px] self-start"
               />
               <div className="text-[#1E0342] pl-4">
@@ -109,7 +109,7 @@ function ItConsultingservice() {
             <div className=" bg-[#fbfcff] w-[420px] flex  my-4 p-6 rounded-lg shadow-xl shadow-[#DDDDDD]">
               <img
                 src={itconsultingsimg3}
-                alt="img"
+                alt="cloud_computing"
                 className="w-[60px] self-start"
               />
               <div className="text-[#1E0342] pl-4">
@@ -128,7 +128,7 @@ function ItConsultingservice() {
             <div className=" bg-[#fbfcff] w-[420px] flex  my-4 p-6 rounded-lg shadow-xl shadow-[#DDDDDD]">
               <img
                 src={itconsultingsimg4}
-                alt="img"
+                alt="digital_transformation"
                 className="w-[60px] self-start"
               />
               <div className="text-[#1E0342] pl-4">
@@ -147,7 +147,7 @@ function ItConsultingservice() {
             <div className=" bg-[#fbfcff] w-[420px] flex  my-4 p-6 rounded-lg shadow-xl shadow-[#DDDDDD]">
               <img
                 src={itconsultingsimg5}
-                alt="img"
+                alt="software_development"
                 className="w-[60px] self-start"
               />
               <div className="text-[#1E0342] pl-4">
@@ -166,7 +166,7 @@ function ItConsultingservice() {
             <div className=" bg-[#fbfcff] w-[420px] flex  my-4 p-6 rounded-lg shadow-xl shadow-[#DDDDDD]">
               <img
                 src={itconsultingsimg6}
-                alt="img"
+                alt="it_project"
                 className="w-[60px] self-start"
               />
               <div className="text-[#1E0342] pl-4">
@@ -185,7 +185,7 @@ function ItConsultingservice() {
             <div className=" bg-[#fbfcff] w-[420px] flex  my-4 p-6 rounded-lg shadow-xl shadow-[#DDDDDD]">
               <img
                 src={itconsultingsimg7}
-                alt="img"
+                alt="ittraining_and_education"
                 className="w-[60px] self-start"
               />
               <div className="text-[#1E0342] pl-4">

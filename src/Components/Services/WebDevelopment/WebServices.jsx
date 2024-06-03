@@ -19,7 +19,7 @@ function WebServices() {
           >
             <img
               src={webimg1}
-              alt="image"
+              alt="website_design"
               className="object-contain w-[90%] md:w-[50%] lg:w-[35%] h-auto rounded-2xl"
             />
             <p className="w-[90%] lg:w-[40%]  text-[#474747] text-justify leading-8 text-lg font-sans">
@@ -42,7 +42,7 @@ function WebServices() {
               <div className="group w-[340px] shadow-xl mx-7 my-9 relative  border_glows">
                 <img
                   src={websimg1}
-                  alt="image"
+                  alt="custom_web_development"
                   className="rounded-xl w-[100%] h-[350px] object-cover"
                 />
                 <div className=" rounded-b-xl absolute -bottom-6 w-full bg-white transition-all group-hover:bottom-0 group-hover:bg-white/95 duration-300">
@@ -63,7 +63,7 @@ function WebServices() {
               <div className="group w-[340px] shadow-xl  mx-7 my-9 relative">
                 <img
                   src={websimg6}
-                  alt="image"
+                  alt="e_commerce_development"
                   className="rounded-xl w-[100%] h-[350px] object-cover"
                 />
                 <div className=" rounded-b-xl absolute -bottom-6 w-full bg-white transition-all group-hover:bottom-0 group-hover:bg-white/95 duration-300">
@@ -83,7 +83,7 @@ function WebServices() {
               <div className="group w-[340px] shadow-xl mx-7 my-9 relative">
                 <img
                   src={websimg5}
-                  alt="image"
+                  alt="responsive_design"
                   className="rounded-xl w-[100%] h-[350px] object-cover"
                 />
                 <div className=" rounded-b-xl absolute -bottom-6 w-full bg-white transition-all group-hover:bottom-0 group-hover:bg-white/95 duration-300">
@@ -106,7 +106,7 @@ function WebServices() {
               <div className="group w-[340px] shadow-xl mx-7 my-9 relative">
                 <img
                   src={websimg4}
-                  alt="image"
+                  alt="content_managemen_systems"
                   className="rounded-xl w-[100%] h-[350px] object-cover"
                 />
                 <div className=" rounded-b-xl absolute -bottom-6 w-full bg-white transition-all group-hover:bottom-0 group-hover:bg-white/95 duration-300">
@@ -125,7 +125,7 @@ function WebServices() {
               <div className="group w-[340px] shadow-xl mx-7 my-9 relative ">
                 <img
                   src={websimg2}
-                  alt="image"
+                  alt="website_support_and_maintenance"
                   className="rounded-xl w-[100%] h-[350px] object-cover"
                 />
                 <div className=" rounded-b-xl absolute -bottom-6 w-full bg-white transition-all group-hover:bottom-0 group-hover:bg-white/95 duration-300">

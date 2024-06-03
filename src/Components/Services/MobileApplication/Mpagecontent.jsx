@@ -11,7 +11,7 @@ const Mpagecontent = () => {
       >
         <img
           src={mdimg2}
-          alt="image"
+          alt="smartphone_usage"
           className="object-contain w-[90%] md:w-[50%] lg:w-[35%] h-auto rounded-2xl"
         />
         <p className="w-[90%] lg:w-[40%]  text-[#4F4A45] text-justify leading-8 text-lg font-sans">

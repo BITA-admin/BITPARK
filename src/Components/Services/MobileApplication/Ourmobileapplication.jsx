@@ -37,14 +37,14 @@ const Ourmobileapplication = () => {
             </div>
             <img
               src={ios}
-              alt="image"
+              alt="ios_service"
               className="object-contain w-[100%] md:w-[80%] lg:w-[40%] rounded-[10%] pt-8 lg:pt-0"
             />
           </div>
           <div className="flex flex-col-reverse lg:flex-row   justify-around items-center pt-8 lg:pt-0">
             <img
               src={andriod}
-              alt="image"
+              alt="andriod_service"
               className="object-contain pt-8 lg:pt-0"
             />
             <div className="w-[90%] md:w-[70%] lg:w-[32%]">
@@ -85,7 +85,7 @@ const Ourmobileapplication = () => {
             </div>
             <img
               src={mdimg4}
-              alt="image"
+              alt="cross-platform_service"
               className="w-[100%]  sm:w-[90%] md:w-[60%] lg:w-[37%] h-auto "
             />
           </div>

@@ -19,7 +19,7 @@ function UiUxService() {
           >
             <img
               src={webimg2}
-              alt="image"
+              alt="ui-ux_design"
               className="bg-[#fff] object-contain w-[90%] md:w-[50%] lg:w-[35%] h-auto my-7 lg:my-0 p-5 rounded-2xl lg:rounded-se-[50%] lg:rounded-ss-[50%] lg:rounded-es-[50%] lg:rounded-ee-[10%]"
             />
             <p className="w-[90%] lg:w-[40%]  text-[#fff] text-justify leading-8 text-lg font-sans">
@@ -35,13 +35,12 @@ function UiUxService() {
           </div>
           <img
             src={waveimg1}
-            alt="image"
+            alt="ui-ux_design"
             className="hidden lg:block absolute bottom-11 xl:bottom-12 left-[38%]"
           />
         </div>
         <div
           className="py-[50px]"
-          // style={{ backgroundImage: "url(../../src/assets/all-images/uiuxsbg1.png)", backgroundSize:"contain"}}
           style={{
             background:
               "linear-gradient(0deg, rgba(0,2,107,1) 46%, rgba(0,193,198,1) 100%)",
@@ -54,7 +53,7 @@ function UiUxService() {
             <div className="w-[400px] bg-white my-7 mx-4 p-10 shadow-lg rounded-3xl flex flex-col items-center">
               <img
                 src={uiuxsimg1}
-                alt="image"
+                alt="ux_strategy_and_consultancy"
                 className="w-[35%] pe-4  object-cover "
               />
               <div>
@@ -76,7 +75,7 @@ function UiUxService() {
             <div className="w-[400px] bg-white my-7 mx-4 p-10 shadow-lg rounded-3xl flex flex-col items-center">
               <img
                 src={uiuxsimg2}
-                alt="image"
+                alt="wireframes"
                 className="w-[35%] pe-4  object-cover "
               />
               <div>
@@ -94,7 +93,7 @@ function UiUxService() {
             <div className="w-[400px] bg-white my-7 mx-4 p-10 shadow-lg rounded-3xl flex flex-col items-center">
               <img
                 src={uiuxsimg3}
-                alt="image"
+                alt="ui_design"
                 className="w-[35%] pe-4  object-cover "
               />
               <div>
@@ -116,7 +115,7 @@ function UiUxService() {
             <div className="w-[400px] bg-white my-7 mx-4  p-10 shadow-lg rounded-3xl flex flex-col items-center">
               <img
                 src={uiuxsimg4}
-                alt="image"
+                alt="website_design"
                 className="w-[35%] pe-4  object-cover "
               />
               <div>
@@ -137,7 +136,7 @@ function UiUxService() {
             <div className="w-[400px] bg-white my-7 mx-4 p-10 shadow-lg rounded-3xl flex flex-col items-center">
               <img
                 src={uiuxsimg5}
-                alt="image"
+                alt="mobileapp_design"
                 className="w-[35%] pe-4  object-cover "
               />
               <div>
@@ -155,7 +154,7 @@ function UiUxService() {
             <div className="w-[400px] bg-white my-7 mx-4  p-10 shadow-lg rounded-3xl flex flex-col items-center">
               <img
                 src={uiuxsimg6}
-                alt="image"
+                alt="user_testing"
                 className="w-[35%] pe-4  object-cover "
               />
               <div>

@@ -14,13 +14,12 @@ const Home = () => {
         <div>
           <div className=" max-w-full  flex gap-4 items-start flex-col">
             <div className=" text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-sky-400 to-cyan-500 font-extrabold xl:text-3xl lg:text-xl tracking-wider py-10 lg:py-24  xl:py-10 text-xl">
-              <span className="block w-full ">
+              <span className="block w-full text-start">
                 <a href="https://www.youtube.com/">
                   Transforming ideas into innovation.
                 </a>
               </span>
-              <br />
-              <span className="text-[18px] text-gray-300 font-bold">
+              <span className="block w-full text-[18px] mt-8 text-start text-gray-300 font-bold">
                 Transforming ideas into innovation. Elevate your digital journey
                 with our expertise.
               </span>

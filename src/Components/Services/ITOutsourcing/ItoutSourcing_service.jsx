@@ -25,7 +25,7 @@ function ItoutSourcing_service() {
           >
             <img
               src={itoutsourcinggimg1}
-              alt="image"
+              alt="itoutsourcing"
               className="w-[90%] md:w-[53%] lg:w-[43%] rounded-0"
             />
             <div className="w-[90%] lg:w-[40%] py-9">
@@ -71,7 +71,7 @@ function ItoutSourcing_service() {
             <div className="bg-[#FAFAFA] w-[420px] my-4 p-7 rounded-lg shadow-xl shadow-[#DDDDDD]">
               <img
                 src={itoutsourcingsimg1}
-                alt="img"
+                alt="software_development"
                 className="w-[75px] pb-2"
               />
               <div className="text-[#1E0342]">
@@ -90,7 +90,7 @@ function ItoutSourcing_service() {
             <div className="bg-[#FAFAFA] w-[420px] my-4 p-7 rounded-lg shadow-xl shadow-[#DDDDDD]">
               <img
                 src={itoutsourcingsimg2}
-                alt="img"
+                alt="infrastructure_management"
                 className="w-[75px] pb-2"
               />
               <div className="text-[#1E0342]">
@@ -110,7 +110,7 @@ function ItoutSourcing_service() {
             <div className="bg-[#FAFAFA] w-[420px] my-4 p-7 rounded-lg shadow-xl shadow-[#DDDDDD]">
               <img
                 src={itoutsourcingsimg3}
-                alt="img"
+                alt="cybersecurity_services"
                 className="w-[75px] pb-2"
               />
               <div className="text-[#1E0342] ">
@@ -130,7 +130,7 @@ function ItoutSourcing_service() {
             <div className="bg-[#FAFAFA] w-[420px] my-4 p-7 rounded-lg shadow-xl shadow-[#DDDDDD]">
               <img
                 src={itoutsourcingsimg4}
-                alt="img"
+                alt="it_support"
                 className="w-[75px] pb-2"
               />
               <div className="text-[#1E0342]">
@@ -149,7 +149,7 @@ function ItoutSourcing_service() {
             <div className="bg-[#FAFAFA] w-[420px] my-4 p-7 rounded-lg shadow-xl shadow-[#DDDDDD]">
               <img
                 src={itoutsourcingsimg5}
-                alt="img"
+                alt="data_analytics"
                 className="w-[75px] pb-2"
               />
               <div className="text-[#1E0342]">
@@ -168,7 +168,7 @@ function ItoutSourcing_service() {
             <div className="bg-[#FAFAFA] w-[420px] my-4 p-7 rounded-lg shadow-xl shadow-[#DDDDDD]">
               <img
                 src={itoutsourcingsimg6}
-                alt="img"
+                alt="itConsulting_services"
                 className="w-[75px] pb-2"
               />
               <div className="text-[#1E0342]">
@@ -187,7 +187,7 @@ function ItoutSourcing_service() {
             <div className="bg-[#FAFAFA] w-[420px] my-4 p-7 rounded-lg shadow-xl shadow-[#DDDDDD]">
               <img
                 src={itoutsourcingsimg7}
-                alt="img"
+                alt="cloud_computing"
                 className="w-[75px] pb-2"
               />
               <div className="text-[#1E0342]">
@@ -206,7 +206,7 @@ function ItoutSourcing_service() {
             <div className="bg-[#FAFAFA] w-[420px] my-4 p-7 rounded-lg shadow-xl shadow-[#DDDDDD]">
               <img
                 src={itoutsourcingsimg8}
-                alt="img"
+                alt="application_maintenance"
                 className="w-[75px] pb-2"
               />
               <div className="text-[#1E0342]">
@@ -225,7 +225,7 @@ function ItoutSourcing_service() {
             <div className="bg-[#FAFAFA] w-[420px] my-4 p-7 rounded-lg shadow-xl shadow-[#DDDDDD]">
               <img
                 src={itoutsourcingsimg9}
-                alt="img"
+                alt="itProject_outsourcing"
                 className="w-[75px] pb-2"
               />
               <div className="text-[#1E0342]">
