@@ -241,7 +241,7 @@ const Approach = () => {
           </div>
         </div>
 
-        <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-sky-600 to-gray-200 text-black">
+        <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-sky-400 to-gray-200 text-black">
           <h1 className="text-3xl font-bold text-center pt-5  text-indigo-900  px-4 pb-10">
             BIT PARK METHOD AND APPROACH
           </h1>
@@ -317,7 +317,7 @@ const Approach = () => {
             </div>
           </div>
         </div>
-        <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-sky-700 to-gray-200 text-black">
+        <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-cyan-200 to-gray-200 text-black">
           <h1 className="text-3xl font-bold text-center pt-5  text-indigo-900  px-4 pb-10">
             BIT PARK METHOD AND APPROACH
           </h1>

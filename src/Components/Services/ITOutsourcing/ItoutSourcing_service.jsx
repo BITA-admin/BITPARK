@@ -29,7 +29,7 @@ function ItoutSourcing_service() {
               className="w-[90%] md:w-[53%] lg:w-[43%] rounded-0"
             />
             <div className="w-[90%] lg:w-[40%] py-9">
-              <p className="flex items-center text-[#fff] text-justify leading-8 text-lg font-sans">
+              <p className="flex items-center text-[#fff] text-justify leading-8 text-lg">
                 <span className="text-3xl self-start mt-1 mr-4 ">
                   <FaGrinStars />
                 </span>
@@ -41,7 +41,7 @@ function ItoutSourcing_service() {
                 services are designed to furnish you with the knowledge and
                 assistance necessary to prosper in the contemporary digital era.
               </p>
-              <p className="mt-5 flex items-center text-[#fff] text-justify leading-8 text-lg font-sans">
+              <p className="mt-5 flex items-center text-[#fff] text-justify leading-8 text-lg">
                 <span className="text-3xl self-start mt-1 mr-4">
                   <FaGrinStars />
                 </span>

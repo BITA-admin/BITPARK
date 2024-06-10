@@ -15,7 +15,7 @@ const ERPModules = () => {
                   <div className="p-10 bg-gray-800 rounded-3xl border_glow">
                     <div className="flex flex-wrap -m-2">
                       <div className="w-full md:w-1/2 p-2">
-                        <h3 className="font-heading text-xl text-white font-black font-mono lg:mt-16 ">
+                        <h3 className="font-heading text-xl text-white font-black  lg:mt-16 ">
                           Finance and Accounting:
                         </h3>
                       </div>
@@ -40,7 +40,7 @@ const ERPModules = () => {
                   <div className="p-10 bg-gray-800 border_glow rounded-3xl">
                     <div className="flex flex-wrap -m-2">
                       <div className="w-full md:w-1/2 p-2">
-                        <h3 className="font-heading text-xl text-white font-black font-mono lg:mt-16 ">
+                        <h3 className="font-heading text-xl text-white font-black  lg:mt-16 ">
                           Human Resources (HR):
                         </h3>
                       </div>
@@ -63,7 +63,7 @@ const ERPModules = () => {
                   <div className="p-10 bg-gray-800 border_glow rounded-3xl">
                     <div className="flex flex-wrap -m-2">
                       <div className="w-full md:w-1/2 p-2">
-                        <h3 className="font-heading text-xl text-white font-black font-mono lg:mt-16  ">
+                        <h3 className="font-heading text-xl text-white font-black  lg:mt-16  ">
                           Supply Chain Management (SCM):
                         </h3>
                       </div>
@@ -89,7 +89,7 @@ const ERPModules = () => {
                   <div className="p-10 bg-gray-800 border_glow rounded-3xl">
                     <div className="flex flex-wrap -m-2">
                       <div className="w-full md:w-1/2 p-2">
-                        <h3 className="font-heading text-xl text-white font-black font-mono lg:mt-20">
+                        <h3 className="font-heading text-xl text-white font-black  lg:mt-20">
                           Manufacturing:
                         </h3>
                       </div>
@@ -116,7 +116,7 @@ const ERPModules = () => {
                   <div className="p-10 bg-gray-800 border_glow rounded-3xl">
                     <div className="flex flex-wrap -m-2">
                       <div className="w-full md:w-1/2 p-2">
-                        <h3 className="font-heading text-xl text-white font-black font-mono lg:pr-10 lg:mt-14">
+                        <h3 className="font-heading text-xl text-white font-black  lg:pr-10 lg:mt-14">
                           Sales and Customer Relationship Management (CRM):
                         </h3>
                       </div>
@@ -140,7 +140,7 @@ const ERPModules = () => {
                   <div className="p-10 bg-gray-800 border_glow rounded-3xl">
                     <div className="flex flex-wrap -m-2">
                       <div className="w-full md:w-1/2 p-2">
-                        <h3 className="font-heading text-xl text-white font-black font-mono mt-8">
+                        <h3 className="font-heading text-xl text-white font-black  mt-8">
                           Critical Benefits of BIT PARK's ERP Solutions:
                         </h3>
                       </div>
@@ -160,7 +160,7 @@ const ERPModules = () => {
                   <div className="p-10 bg-gray-800 border_glow rounded-3xl">
                     <div className="flex flex-wrap -m-2">
                       <div className="w-full md:w-1/2 p-2">
-                        <h3 className="font-heading text-xl text-white font-black font-mono lg:mt-8">
+                        <h3 className="font-heading text-xl text-white font-black  lg:mt-8">
                           Streamlined Operations:
                         </h3>
                       </div>
@@ -180,7 +180,7 @@ const ERPModules = () => {
                   <div className="p-10 bg-gray-800 border_glow rounded-3xl">
                     <div className="flex flex-wrap -m-2">
                       <div className="w-full md:w-1/2 p-2">
-                        <h3 className="font-heading text-xl text-white font-black font-mono lg:mt-8">
+                        <h3 className="font-heading text-xl text-white font-black  lg:mt-8">
                           Better Decisions:
                         </h3>
                       </div>
@@ -201,7 +201,7 @@ const ERPModules = () => {
                   <div className="p-10 bg-gray-800 border_glow rounded-3xl">
                     <div className="flex flex-wrap -m-2">
                       <div className="w-full md:w-1/2 p-2">
-                        <h3 className="font-heading text-xl text-white font-black font-mono lg:mt-8">
+                        <h3 className="font-heading text-xl text-white font-black  lg:mt-8">
                           Improved visibility and regulation:
                         </h3>
                       </div>
@@ -222,7 +222,7 @@ const ERPModules = () => {
                   <div className="p-10 bg-gray-800 border_glow rounded-3xl">
                     <div className="flex flex-wrap -m-2">
                       <div className="w-full md:w-1/2 p-2">
-                        <h3 className="font-heading text-xl text-white font-black font-mono lg:mt-8">
+                        <h3 className="font-heading text-xl text-white font-black  lg:mt-8">
                           Scalability and Flexibility:
                         </h3>
                       </div>
@@ -242,7 +242,7 @@ const ERPModules = () => {
                   <div className="p-10 bg-gray-800 border_glow rounded-3xl">
                     <div className="flex flex-wrap -m-2">
                       <div className="w-full md:w-1/2 p-2">
-                        <h3 className="font-heading text-xl text-white font-black font-mono lg:mt-8">
+                        <h3 className="font-heading text-xl text-white font-black  lg:mt-8">
                           Cost Savings:
                         </h3>
                       </div>
@@ -263,7 +263,7 @@ const ERPModules = () => {
                   <div className="p-10 bg-gray-800 border_glow rounded-3xl">
                     <div className="flex flex-wrap -m-2">
                       <div className="w-full md:w-1/2 p-2">
-                        <h3 className="font-heading text-xl text-white font-black font-mono lg:mt-8">
+                        <h3 className="font-heading text-xl text-white font-black  lg:mt-8">
                           Regulatory Compliance:
                         </h3>
                       </div>

@@ -21,7 +21,7 @@ function WebServices() {
               alt="website_design"
               className="object-contain w-[90%] md:w-[50%] lg:w-[35%] h-auto rounded-2xl"
             />
-            <p className="w-[90%] lg:w-[40%]  text-[#474747] text-justify leading-8 text-lg font-sans">
+            <p className="w-[90%] lg:w-[40%]  text-[#474747] text-justify leading-8 text-lg">
               Greetings, and we appreciate your interest in BIT PARK PVT LTD. We
               are delighted to serve as your comprehensive provider of
               exceptional website design and development services, tailored to

@@ -21,10 +21,10 @@ function Technologies() {
         >
           <div className="h-screen bg-black/75 flex flex-col justify-center items-center">
             <div className="">
-              <h1 className="text-white px-4 text-2xl lg:text-5xl font-bold font-sans ">
+              <h1 className="text-white px-4 text-2xl lg:text-5xl font-bold ">
                 Tech Mastery Redefined
               </h1>
-              <p className=" text-white px-4 lg:text-center py-[3%] text-md font-sans">
+              <p className=" text-white px-4 lg:text-center py-[3%] text-md">
                 Bespoke Solutions Driven by the Latest and Most Varied
                 Technologies
               </p>

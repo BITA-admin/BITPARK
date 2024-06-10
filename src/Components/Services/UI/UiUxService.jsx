@@ -18,7 +18,7 @@ function UiUxService() {
               alt="ui-ux_design"
               className="bg-[#fff] object-contain w-[90%] md:w-[50%] lg:w-[35%] h-auto my-7 lg:my-0 p-5 rounded-2xl lg:rounded-se-[50%] lg:rounded-ss-[50%] lg:rounded-es-[50%] lg:rounded-ee-[10%]"
             />
-            <p className="w-[90%] lg:w-[40%]  text-[#fff] text-justify leading-8 text-lg font-sans">
+            <p className="w-[90%] lg:w-[40%]  text-[#fff] text-justify leading-8 text-lg ">
               Bit Park Pvt Ltd is more than just a software development company.
               We are a group of passionate innovators dedicated to creating
               unique digital experiences with our cutting-edge UX/UI design
