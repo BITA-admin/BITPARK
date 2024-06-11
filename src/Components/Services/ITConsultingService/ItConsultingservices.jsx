@@ -32,7 +32,7 @@ function ItConsultingservices() {
               className=" w-[80%] md:w-[40%] block lg:hidden border-b-4 border-b-white"
             />
             <div className="w-[90%] lg:w-[40%] py-9">
-              <p className="flex items-center text-[#fff] text-justify leading-8 text-lg font-sans">
+              <p className="flex items-center text-[#fff] text-justify leading-8 text-lg">
                 <span className="text-3xl self-start mt-1 mr-4 ">
                   <FaGrinStars />
                 </span>
@@ -43,7 +43,7 @@ function ItConsultingservices() {
                 specialized IT consulting services that are designed to satisfy
                 the unique requirements of small businesses such as yours.
               </p>
-              <p className="flex items-center text-[#fff] text-justify leading-8 text-lg font-sans">
+              <p className="flex items-center text-[#fff] text-justify leading-8 text-lg">
                 <span className="text-3xl self-start mt-1 mr-4">
                   <FaGrinStars />
                 </span>

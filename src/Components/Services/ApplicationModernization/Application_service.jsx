@@ -20,7 +20,7 @@ function Application_service() {
               alt="application_modernization"
               className=" w-[100%] md:w-[55%] lg:w-[25%] border-b-4 border-b-white lg:border-none"
             />
-            <p className="w-[90%] lg:w-[40%] text-white text-justify leading-8 text-lg py-9 font-sans">
+            <p className="w-[90%] lg:w-[40%] text-white text-justify leading-8 text-lg py-9">
               Bit Park Pvt. Ltd. is designated as the preferred collaborator for
               Application Modernization solutions. Businesses that wish to
               prosper in the digital environment must ensure they remain one
@@ -44,7 +44,7 @@ function Application_service() {
                 <h2 className="text-white text-center font-bold text-xl pb-9">
                   Custom Mobile Application Services
                 </h2>
-                <p className="text-white  text-justify leading-8 text-lg font-sans">
+                <p className="text-white  text-justify leading-8 text-lg ">
                   We at Bit Park recognize the critical importance that mobile
                   applications hold in the interconnected world of today. Our
                   seasoned development staff specializes in creating We at Bit
@@ -76,7 +76,7 @@ function Application_service() {
                 <h2 className="text-white text-center font-bold text-xl pb-9">
                   Custom Web Application Services
                 </h2>
-                <p className="text-white  text-justify leading-8 text-lg font-sans">
+                <p className="text-white  text-justify leading-8 text-lg">
                   Web-based applications are critical to contemporary business
                   operations in this age of digital transformation. Bit Park is
                   a leader in the development of bespoke web applications,
@@ -108,7 +108,7 @@ function Application_service() {
                 <h2 className="text-white text-center font-bold text-xl pb-9">
                   Cloud Migration Service
                 </h2>
-                <p className="text-white  text-justify leading-8 text-lg font-sans">
+                <p className="text-white  text-justify leading-8 text-lg ">
                   Bit Park Pvt. Ltd. is the go-to provider of Cloud Migration
                   services that are specifically designed to accommodate the
                   changing requirements of your organization. In the

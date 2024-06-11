@@ -14,7 +14,7 @@ const Mpagecontent = () => {
           alt="smartphone_usage"
           className="object-contain w-[90%] md:w-[50%] lg:w-[35%] h-auto rounded-2xl"
         />
-        <p className="w-[90%] lg:w-[40%]  text-[#4F4A45] text-justify leading-8 text-lg font-sans">
+        <p className="w-[90%] lg:w-[40%]  text-[#4F4A45] text-justify leading-8 text-lg">
           At Bit Park Pvt Ltd, we recognize the importance of a mobile presence
           in today's digital landscape. With the exponential surge in smartphone
           usage, having a powerful and user-friendly mobile application is no

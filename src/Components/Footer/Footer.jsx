@@ -23,9 +23,9 @@ const Footer = () => {
           </span>
         </div>
         <div>
-          <h2 className="text-[22px] font-semibold text-blueColor py-2 uppercase">
+          {/* <h2 className="text-[22px] font-semibold text-blueColor py-2 uppercase">
             Service
-          </h2>
+          </h2> */}
           <ul className="text-[16px] my-4">
             <li className="my-2">
               <Link

@@ -17,7 +17,7 @@ function Test_service() {
               alt="testing_and_qa"
               className=" w-[100%] md:w-[50%] lg:w-[35%] border-b-4 border-b-white lg:border-none"
             />
-            <p className="w-[90%] lg:w-[40%] py-9 text-[#fff] text-justify leading-8 text-lg font-sans">
+            <p className="w-[90%] lg:w-[40%] py-9 text-[#fff] text-justify leading-8 text-lg ">
               Get complete Testing and QA services from Bit Park Pvt Ltd, your
               trusted partner. We understand the importance of software
               application stability, performance, and security. We offer a
@@ -34,7 +34,7 @@ function Test_service() {
             <h2 className="text-white text-center font-bold text-xl pb-9">
               API testing service
             </h2>
-            <p className="text-white  text-justify leading-8 text-lg font-sans">
+            <p className="text-white  text-justify leading-8 text-lg">
               Bit Park specializes in API testing services to ensure
               functionality and reliability. API testing validates software
               component connectivity and provides secure data sharing. Our API
@@ -42,7 +42,7 @@ function Test_service() {
               vulnerabilities to deliver robust and trustworthy solutions to
               your clients.
             </p>
-            <p className="py-5 text-white  text-justify leading-8 text-lg font-sans">
+            <p className="py-5 text-white  text-justify leading-8 text-lg">
               We offer functional, performance, security, and other API testing
               methods. We offer the tools and knowledge to ensure the
               reliability and performance of any RESTful, SOAP, or GraphQL API.
