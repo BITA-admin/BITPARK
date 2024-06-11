@@ -9,6 +9,10 @@ import techimg2 from "../../assets/all-images/technology-Frame.png";
 import techimg3 from "../../assets/all-images/teehnology_database-Tools.png";
 import techimg4 from "../../assets/all-images/technology-testing.png";
 
+// testing
+
+import timg1 from "../../assets/all-images/service-webdevelopment.png"
+
 function Technologies() {
   return (
     <>
@@ -31,6 +35,15 @@ function Technologies() {
             </div>
           </div>
         </div>
+
+        {/* testing  */}
+        <div>
+          <div>
+            <img src={timg1} alt="img1" />
+          </div>
+        </div>
+
+
 
         {/* maindiv 2 */}
         <div>
