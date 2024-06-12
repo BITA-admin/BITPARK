@@ -44,7 +44,7 @@ export const About_banner = () => {
         <meta name="language" content="English" />
         <meta name="author" content="bitpark" />
 
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://bitpark.co.in/aboutus" />
 
         <meta property="og:title" content="About us" />
         <meta
@@ -54,7 +54,7 @@ export const About_banner = () => {
         <meta property="og:image" content="" />
         <meta property="og:image:width" content="225" />
         <meta property="og:image:height" content="225" />
-        <meta property="og:url" content="" />
+        <meta property="og:url" content="https://bitpark.co.in/aboutus" />
         <meta property="og:site_name" content="" />
       </Helmet>
       <motion.section
