@@ -9,13 +9,10 @@ import techimg2 from "../../assets/all-images/technology-Frame.png";
 import techimg3 from "../../assets/all-images/teehnology_database-Tools.png";
 import techimg4 from "../../assets/all-images/technology-testing.png";
 
-<<<<<<< HEAD
 // testing
 
 import timg1 from "../../assets/all-images/service-webdevelopment.png";
 
-=======
->>>>>>> 7380a01223733af9fbe50936d30571b937decd75
 function Technologies() {
   return (
     <>
@@ -33,7 +30,6 @@ function Technologies() {
             </div>
           </div>
         </div>
-<<<<<<< HEAD
 
         {/* testing  */}
         <div>
@@ -43,8 +39,6 @@ function Technologies() {
         </div>
 
         {/* maindiv 2 */}
-=======
->>>>>>> 7380a01223733af9fbe50936d30571b937decd75
         <div>
           <div>
             <h1 className="pt-9 pb-5 text-center font-bold text-3xl text-slate-700 tracking-[15px]">
