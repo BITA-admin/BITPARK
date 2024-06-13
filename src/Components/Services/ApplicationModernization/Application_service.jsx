@@ -8,12 +8,7 @@ function Application_service() {
   return (
     <>
       <section>
-        <div
-          className=""
-          style={{
-            backgroundImage: "url(src/assets/all-images/app-moniterbgimg1.png)",
-          }}
-        >
+        <div className=" bg-[url('../src/assets/all-images/app-moniterbgimg1.png')]">
           <div className=" relative flex flex-col lg:flex-row justify-around w-auto  items-center bg-black/60">
             <img
               src={appmonitermenimg1}

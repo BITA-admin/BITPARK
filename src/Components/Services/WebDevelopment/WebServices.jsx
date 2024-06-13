@@ -11,10 +11,10 @@ function WebServices() {
       <section>
         <div className="websection bg-[#efefef]">
           <div
-            className="bg-no-repeat bg-cover flex flex-col lg:flex-row justify-around w-auto py-[5%] items-center"
-            style={{
-              backgroundImage: "url(src/assets/all-images/webbgimg1.png)",
-            }}
+            className="bg-[url('../src/assets/all-images/webbgimg1.png')] bg-no-repeat bg-cover flex flex-col lg:flex-row justify-around w-auto py-[5%] items-center"
+            // style={{
+            //   backgroundImage: "url(../src/assets/all-images/webbgimg1.png)",
+            // }}
           >
             <img
               src={webimg1}

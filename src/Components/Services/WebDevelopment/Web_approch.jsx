@@ -1,5 +1,11 @@
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
+import planningImage from "../../../assets/all-images/webs-planning.png";
+import WebDesign from "../../../assets/all-images/webs-design.png";
+import WebsDevelopment from "../../../assets/all-images/webs-development.png";
+import WebsTestingqa from "../../../assets/all-images/webs-testing&qa.png";
+import WebsDeployandlaunch from "../../../assets/all-images/webs-deployandlaunch.png";
+import WebsPostlaunchmaintenance from "../../../assets/all-images/webs-postlaunchmaintenance.png";
 
 const It_approch = () => {
   return (
@@ -64,42 +70,42 @@ export default It_approch;
 
 const cardss = [
   {
-    url: "src/assets/all-images/webs-planning.png",
+    url: planningImage,
     titles: "Planning",
     id: 1,
     lines:
       "Establish project objectives,Collect client feedback and study,Detail the project plan and timetable.",
   },
   {
-    url: "src/assets/all-images/webs-design.png",
+    url: WebDesign,
     titles: "Design:",
     id: 2,
     lines:
       "Use wireframes and mockups to envision website layout,Select colors, fonts, and images,Make designs responsive and user-friendly.",
   },
   {
-    url: "src/assets/all-images/webs-development.png",
+    url: WebsDevelopment,
     titles: " The Development Process:",
     id: 3,
     lines:
       "Develop the website's front-end using HTML, CSS, and JavaScript.Back-end Development: Use PHP, Python, or Node,js to build server functions,Integrate databases to store and manage website data.",
   },
   {
-    url: "src/assets/all-images/webs-testing&qa.png",
+    url: WebsTestingqa,
     titles: "Testing & QA:",
     id: 4,
     lines:
       "Test thoroughly to find and repair bugs,Maintain cross-browser responsiveness,Test usability to evaluate user experience.",
   },
   {
-    url: "src/assets/all-images/webs-deployandlaunch.png",
+    url: WebsDeployandlaunch,
     titles: "Deploy and Launch:",
     id: 5,
     lines:
       "Optimize code and assets for deployment,Select a hosting platform and configure servers,Finally deploy and test the website on the live server,Staff training on new technologies and processes,Facilitating adoption and use through change management.",
   },
   {
-    url: "src/assets/all-images/webs-postlaunchmaintenance.png",
+    url: WebsPostlaunchmaintenance,
     titles: "Post-Launch Maintenance :",
     id: 6,
     lines:

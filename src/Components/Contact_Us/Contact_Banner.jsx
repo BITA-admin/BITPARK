@@ -25,7 +25,7 @@ const Sample = () => {
         <div className="h-full w-full bg-slate-900 absolute top-0 opacity-75 "></div>
       </div> */}
 
-      <section className=" bg-[url('src/assets/all-images/email-6370595_1280.png')] bg-no-repeat bg-cover">
+      <section className=" bg-[url('../src/assets/all-images/email-6370595_1280.png')] bg-no-repeat bg-cover">
         <div className=" bg-slate-900/75 pt-[25%] lg:pt-[8%] flex flex-col lg:flex-row items-center justify-around">
           <div>
             <div className=" text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-sky-400 to-cyan-500 font-extrabold xl:text-4xl lg:text-3xl tracking-wider text-3xl">

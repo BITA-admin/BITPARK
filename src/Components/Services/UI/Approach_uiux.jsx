@@ -1,5 +1,12 @@
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
+import ResearchDiscovery from "../../../assets/all-images/Research&Discovery-uiux.png";
+import PlanningStrategy from "../../../assets/all-images/Planning&Strategy-uiux.png";
+import wireframe from "../../../assets/all-images/wireframe-uiux.png";
+import Prototype from "../../../assets/all-images/Prototype-uiux.png";
+import vishuldesign from "../../../assets/all-images/vishuldesign-uiux.png";
+import usabilitytesting from "../../../assets/all-images/usabilitytesting-uiux.png";
+import uideliverablestodeveloper from "../../../assets/all-images/uideliverablestodeveloper-uiux.png";
 
 const Approach_uiux = () => {
   return (
@@ -70,49 +77,49 @@ export default Approach_uiux;
 
 const cards = [
   {
-    url: "src/assets/all-images/Research&Discovery-uiux.png",
+    url: ResearchDiscovery,
     titles: "Research & Discovery ",
     id: 1,
     lines:
       "Understand client needs, Examine target audience, Market and competition analysis, Plan and Strategize.",
   },
   {
-    url: "src/assets/all-images/Planning&Strategy-uiux.png",
+    url: PlanningStrategy,
     titles: "Planning&Strategy",
     id: 2,
     lines:
       "Establish project objectives, Develop user stories and personas, Project roadmap and timeline.",
   },
   {
-    url: "src/assets/all-images/wireframe-uiux.png",
+    url: wireframe,
     titles: "Wireframing",
     id: 3,
     lines:
       "Make low-fidelity wireframes, Plan a simple layout and structure, Prioritize function above aesthetics.",
   },
   {
-    url: "src/assets/all-images/Prototype-uiux.png",
+    url: Prototype,
     titles: "Prototyping",
     id: 4,
     lines:
       "Create interactive prototypes, Add basic user testing functionality, Improve navigation and flows.",
   },
   {
-    url: "src/assets/all-images/vishuldesign-uiux.png",
+    url: vishuldesign,
     titles: "Visual Design",
     id: 5,
     lines:
       "Branding elements, Create realistic mockups, Prioritize aesthetics, typography, and color.",
   },
   {
-    url: "src/assets/all-images/usabilitytesting-uiux.png",
+    url: usabilitytesting,
     titles: "Usability Testing",
     id: 6,
     lines:
       "Get user feedback, Finding problems and ways to improve, Design iterations based on customer feedback.",
   },
   {
-    url: "src/assets/all-images/uideliverablestodeveloper-uiux.png",
+    url: uideliverablestodeveloper,
     titles: "UI Deliverables to Developer",
     id: 7,
     lines:

@@ -55,7 +55,7 @@ export const About_banner = () => {
         <meta property="og:image:width" content="225" />
         <meta property="og:image:height" content="225" />
         <meta property="og:url" content="https://bitpark.co.in/aboutus" />
-        <meta property="og:site_name" content="" />
+        <meta property="og:site_name" content="https://bitpark.co.in/" />
       </Helmet>
       <motion.section
         style={{

@@ -1,4 +1,4 @@
-import React from "react";
+import Soluction_About from "../../assets/all-images/business-concept-with-wood-blocks.jpg";
 
 const Solution_about = () => {
   return (
@@ -6,8 +6,8 @@ const Solution_about = () => {
       <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl ">
         <div className="w-full h-64 lg:w-1/2 lg:h-auto">
           <img
-            src="src/assets/all-images/business-concept-with-wood-blocks.jpg"
-            alt="Background Image"
+            src={Soluction_About}
+            alt="About_Soluction"
             className="h-full w-full object-cover"
           />
         </div>

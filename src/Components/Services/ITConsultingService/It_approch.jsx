@@ -1,6 +1,14 @@
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
 
+import assessmentandanalysis from "../../../assets/all-images/assessmentandanalysis-itcs.png";
+import strategydevelopment from "../../../assets/all-images/strategydevelopment-itcs.png";
+import designingandplanningsolutions from "../../../assets/all-images/designingandplanningsolutions-itcs.png";
+import implementationanddeployment from "../../../assets/all-images/theimplementationanddeployment-itcs.png";
+import managetrainingandchange from "../../../assets/all-images/managetrainingandchange-itcs.png";
+import supportandmonitoring from "../../../assets/all-images/supportandmonitoring-itcs.png";
+import evaluateandoptimize from "../../../assets/all-images/evaluateandoptimize-itcs.png";
+
 const It_approch = () => {
   return (
     <div className="bg-neutral-800">
@@ -64,49 +72,49 @@ export default It_approch;
 
 const cardss = [
   {
-    url: "src/assets/all-images/assessmentandanalysis-itcs.png",
+    url: assessmentandanalysis,
     titles: "Assessment and Analysis",
     id: 1,
     lines:
       "Initial discussion of company goals and IT landscape,Comprehensive needs assessment to identify strengths, weaknesses, and improvement opportunities.",
   },
   {
-    url: "src/assets/all-images/strategydevelopment-itcs.png",
+    url: strategydevelopment,
     titles: "Strategy Development",
     id: 2,
     lines:
       "Customized IT strategies for business priorities,Detailed implementation and execution plans.",
   },
   {
-    url: "src/assets/all-images/designingandplanningsolutions-itcs.png",
+    url: designingandplanningsolutions,
     titles: "Designing and Planning Solutions",
     id: 3,
     lines:
       "Solution architecture that meets technology and scalability needs,Specific implementation strategies with dates and resources.",
   },
   {
-    url: "src/assets/all-images/theimplementationanddeployment-itcs.png",
+    url: implementationanddeployment,
     titles: "The implementation and deployment",
     id: 4,
     lines:
       "Top-notch execution using industry standards,Certified project management for on-time, on-budget delivery.",
   },
   {
-    url: "src/assets/all-images/managetrainingandchange-itcs.png",
+    url: managetrainingandchange,
     titles: "Manage Training and Change",
     id: 5,
     lines:
       "Staff training on new technologies and processes,Facilitating adoption and use through change management.",
   },
   {
-    url: "src/assets/all-images/supportandmonitoring-itcs.png",
+    url: supportandmonitoring,
     titles: "Support and Monitoring",
     id: 6,
     lines:
       "Ongoing support and maintenance,Monitor concerns before they escalate.",
   },
   {
-    url: "src/assets/all-images/evaluateandoptimize-itcs.png",
+    url: evaluateandoptimize,
     titles: "Evaluate and Optimize",
     id: 7,
     lines:

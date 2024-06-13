@@ -22,7 +22,7 @@ const UIUX = () => {
         <meta name="language" content="English" />
         <meta name="author" content="bitpark" />
 
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://bitpark.co.in/uiux" />
 
         <meta property="og:title" content="UX UI  Services" />
         <meta
@@ -32,8 +32,8 @@ const UIUX = () => {
         <meta property="og:image" content="" />
         <meta property="og:image:width" content="225" />
         <meta property="og:image:height" content="225" />
-        <meta property="og:url" content="" />
-        <meta property="og:site_name" content="" />
+        <meta property="og:url" content="https://bitpark.co.in/uiux" />
+        <meta property="og:site_name" content="https://bitpark.co.in/" />
       </Helmet>
       <div>
         <UiUxBanner />

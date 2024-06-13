@@ -4,10 +4,10 @@ const Mpagecontent = () => {
   return (
     <div>
       <div
-        className="bg-no-repeat bg-cover flex flex-col lg:flex-row justify-around w-auto py-[5%] items-center"
-        style={{
-          backgroundImage: "url(../../src/assets/all-images/md_bg_svg01.jpg)",
-        }}
+        className="bg-[url('../src/assets/all-images/md_bg_svg01.jpg')] bg-no-repeat bg-cover flex flex-col lg:flex-row justify-around w-auto py-[5%] items-center"
+        // style={{
+        //   backgroundImage: "url(../src/assets/all-images/md_bg_svg01.jpg)",
+        // }}
       >
         <img
           src={mdimg2}

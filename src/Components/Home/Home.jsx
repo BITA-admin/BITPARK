@@ -18,7 +18,7 @@ const Home = () => {
         <meta name="language" content="English" />
         <meta name="author" content="bitpark" />
 
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://bitpark.co.in/" />
 
         <meta property="og:title" content="bitpark" />
         <meta
@@ -28,8 +28,8 @@ const Home = () => {
         <meta property="og:image" content="" />
         <meta property="og:image:width" content="225" />
         <meta property="og:image:height" content="225" />
-        <meta property="og:url" content="" />
-        <meta property="og:site_name" content="" />
+        <meta property="og:url" content="https://bitpark.co.in/" />
+        <meta property="og:site_name" content="https://bitpark.co.in/" />
       </Helmet>
       <div className="relative flex h-screen">
         <img

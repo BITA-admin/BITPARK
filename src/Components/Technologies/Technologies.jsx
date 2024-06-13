@@ -11,18 +11,13 @@ import techimg4 from "../../assets/all-images/technology-testing.png";
 
 // testing
 
-import timg1 from "../../assets/all-images/service-webdevelopment.png"
+import timg1 from "../../assets/all-images/service-webdevelopment.png";
 
 function Technologies() {
   return (
     <>
       <section>
-        <div
-          className="h-screen w-auto bg-cover"
-          style={{
-            backgroundImage: "url(src/assets/all-images/technologybgimg2.jpg)",
-          }}
-        >
+        <div className=" bg-[url('../src/assets/all-images/technologybgimg2.jpg')] bg-no-repeat bg-cover h-screen w-auto">
           <div className="h-screen bg-black/75 flex flex-col justify-center items-center">
             <div className="">
               <h1 className="text-white px-4 text-2xl lg:text-5xl font-bold ">
@@ -42,8 +37,6 @@ function Technologies() {
             <img src={timg1} alt="img1" />
           </div>
         </div>
-
-
 
         {/* maindiv 2 */}
         <div>

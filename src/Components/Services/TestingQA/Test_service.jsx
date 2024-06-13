@@ -7,10 +7,10 @@ function Test_service() {
       <section>
         <div className=" bg-slate-900 relative">
           <div
-            className="bg-no-repeat bg-cover flex flex-col lg:flex-row justify-around w-auto  items-center"
-            style={{
-              backgroundImage: "url(src/assets/all-images/tqasbgimg1.png)",
-            }}
+            className="bg-[url('../src/assets/all-images/tqasbgimg1.png')] bg-no-repeat bg-cover flex flex-col lg:flex-row justify-around w-auto  items-center"
+            // style={{
+            //   backgroundImage: "url(../src/assets/all-images/tqasbgimg1.png)",
+            // }}
           >
             <img
               src={testingandqamenimg1}
