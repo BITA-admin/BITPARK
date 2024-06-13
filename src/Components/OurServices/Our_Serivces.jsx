@@ -1,4 +1,3 @@
-// import { IoSettingsSharp } from "react-icons/io5";
 import { FaLaptopCode } from "react-icons/fa";
 import { HiMiniComputerDesktop } from "react-icons/hi2";
 import { FaMobileAlt } from "react-icons/fa";
@@ -9,6 +8,7 @@ import { FaHandshake } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+
 
 const Our_Serivces = () => {
   useEffect(() => {
@@ -29,21 +29,6 @@ const Our_Serivces = () => {
         OUR SERIVCES
       </h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-around gap-24 ">
-        {/* <div
-          className="items-center rounded-3xl p-1 border-2 border-white border_glow ;"
-          data-aos="fade-down"
-        >
-          <a href="">
-            <div className="fill-white">
-              <IoSettingsSharp className="w-[260px] h-[205px] pt-5 text-blueColor text-center" />
-            </div>
-            <h2 className="text-white text-center p-3 font-semibold ">
-              Application <br />
-              Development
-            </h2>
-          </a>
-        </div> */}
-
         <div
           className="items-center rounded-3xl p-1 border-2 border-white border_glow;"
           data-aos="fade-down"
@@ -51,7 +36,6 @@ const Our_Serivces = () => {
           {/* <Link to="/webdevelopment"> */}
           <a href="/webdevelopment">
             <FaLaptopCode className="w-[200px] h-[150px] pt-8 text-blueColor text-center" />
-
             <h2 className="text-white text-center p-5 font-semibold ">
               Web <br />
               Development
@@ -66,7 +50,6 @@ const Our_Serivces = () => {
         >
           <a href="/mobileappdevelopment">
             <HiMiniComputerDesktop className="w-[200px] h-[150px] text-blueColor text-center" />
-
             <h2 className="text-white text-center p-3 font-semibold ">
               Mobile APP <br />
               Development
@@ -98,7 +81,7 @@ const Our_Serivces = () => {
           </a>
         </div>
 
-        {/* <img height={250} width={250} src={Uximage} alt="" /> */}
+        
 
         <div
           className="items-center rounded-3xl p-1 border-2 border-white border_glow ;"
@@ -118,7 +101,7 @@ const Our_Serivces = () => {
         >
           <a href="/itconsultingservice">
             <PiUserListBold className="w-[200px] h-[150px] text-blueColor text-center" />
-            <h2 className="text-white text-center font-semibold ">
+            <h2 className="text-white text-center p-5 font-semibold ">
               IT Consultancy
             </h2>
           </a>
