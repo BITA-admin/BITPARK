@@ -60,7 +60,7 @@ function ItoutSourcing_service() {
 
         {/* main div2 */}
 
-        <div className="pb-[3%] px-3">
+        <div className="pb-[3%] px-4">
           <h1 className="py-[4%] text-center text-3xl font-bold text-[#008DDA]">
             Our Outsourced Services For Small Business
           </h1>
