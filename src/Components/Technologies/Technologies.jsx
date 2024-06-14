@@ -31,13 +31,6 @@ function Technologies() {
           </div>
         </div>
 
-        {/* testing  */}
-        <div>
-          <div>
-            <img src={timg1} alt="img1" />
-          </div>
-        </div>
-
         {/* maindiv 2 */}
         <div>
           <div>
