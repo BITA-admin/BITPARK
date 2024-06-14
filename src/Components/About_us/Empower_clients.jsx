@@ -16,7 +16,7 @@ const Empower_clients = () => {
         </h3>
       </div>
       <div className="container mx-auto max-w-5xl flex gap-20 flex-wrap items-start justify-center md:justify-between">
-        <div className="grid gap-4 justify-items-center text-center md:flex-1 mt-8">
+        <div className=" grid gap-4 justify-items-center text-center md:flex-1 mt-8">
           <div className="relative flex justify-center items-center">
             <div className="absolute animate-spin rounded-full h-28 w-28 border-t-8 border-b-8 border-t-slate-700 border-b-blueColor"></div>
             <img
@@ -105,6 +105,7 @@ const Empower_clients = () => {
           </p>
         </div>
       </div>
+
     </div>
   );
 };
