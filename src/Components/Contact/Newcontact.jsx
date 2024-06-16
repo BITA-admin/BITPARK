@@ -72,15 +72,11 @@ const Newcontact = () => {
   };
 
   return (
-    <div className="relative">
-      <div className=" flex h-[120svh] lg:h-screen">
-        <img
-          src={Contact_Us}
-          alt="bitpark-contact"
-          className="h-full w-full object-cover object-center"
-        />
-
-        <div className="absolute lg:top-[28%] top-[5%]  w-3/5 left-20  md:left-56 z-10">
+    <>
+    <section>
+      <div className=" bg-[url('../src/assets/all-images/NewContact.png')] bg-cover bg-no-repeat">
+        <div className="bg-slate-900/80 py-[8%] flex flex-col-reverse lg:flex-row justify-evenly items-center">
+        <div className="w-[400px] mt-12 ">
           <div className="mb-12 w-full  shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6">
             {" "}
             <div className="flex items-start">
@@ -195,11 +191,10 @@ const Newcontact = () => {
             </a>
           </div>
         </div>
-        <div className="absolute lg:top-[14%] lg:right-48 xl:w-2/6 w-[90%]   top-[48%]  md:py-10  z-10  ml-5">
-          {/* <img src={Contact_us} alt="Contact_Banner" className="" /> */}
+        <div className="lg:w-[420px] w-[90%]">
           <form
             onSubmit={handleSubmit}
-            className="mb-12 w-full shrink-0 grow-0 basis-auto  border_glow p-5 rounded-lg"
+            className="w-full shrink-0 grow-0 basis-auto  border_glow p-5 rounded-lg"
           >
             <div className="mb-3 w-full">
               <label
@@ -280,9 +275,10 @@ const Newcontact = () => {
             </button>
           </form>
         </div>
+        </div>
       </div>
-      <div className="h-full w-full bg-slate-900 absolute top-0 opacity-80 "></div>
-    </div>
+    </section>
+    </>
   );
 };
 

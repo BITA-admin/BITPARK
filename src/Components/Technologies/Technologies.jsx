@@ -13,7 +13,7 @@ function Technologies() {
   return (
     <>
       <section>
-        <div className=" bg-[url('../src/assets/all-images/technologybgimg2.jpg')] bg-no-repeat bg-cover h-screen w-auto">
+        <div className=" bg-[url('../src/assets/all-images/technologybgimg2.png')] bg-no-repeat bg-cover h-screen w-auto">
           <div className="h-screen bg-black/75 flex flex-col justify-center items-center">
             <div className="">
               <h1 className="text-white px-4 text-2xl lg:text-5xl font-bold ">

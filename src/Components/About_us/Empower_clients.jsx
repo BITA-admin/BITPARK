@@ -15,8 +15,9 @@ const Empower_clients = () => {
           </span>
         </h3>
       </div>
-      <div className="container mx-auto max-w-5xl flex gap-20 flex-wrap items-start justify-center md:justify-between">
-        <div className=" grid gap-4 justify-items-center text-center md:flex-1 mt-8">
+      <div className="container mx-auto max-w-6xl">
+        <div className="flex flex-wrap justify-around">
+        <div className=" w-[190px] grid gap-4 justify-items-center text-center mx-2 my-3 mt-8">
           <div className="relative flex justify-center items-center">
             <div className="absolute animate-spin rounded-full h-28 w-28 border-t-8 border-b-8 border-t-slate-700 border-b-blueColor"></div>
             <img
@@ -30,7 +31,7 @@ const Empower_clients = () => {
             Ideate
           </h3>
         </div>
-        <div className="grid gap-4 justify-items-center text-center  md:flex-1 mt-8">
+        <div className="w-[190px] grid gap-4 justify-items-center text-center mx-2 my-3 mt-8">
           <div className="relative flex justify-center items-center">
             <div className="absolute animate-spin rounded-full h-28 w-28 border-t-8 border-b-8 border-t-slate-700 border-b-blueColor"></div>
             <img
@@ -43,7 +44,7 @@ const Empower_clients = () => {
             Strategic Plan
           </h3>
         </div>
-        <div className="grid gap-4 justify-items-center text-center md:flex-1 mt-8">
+        <div className="w-[190px] grid gap-4 justify-items-center text-center mx-2 my-3 mt-8">
           <div className="relative flex justify-center items-center">
             <div className="absolute animate-spin rounded-full h-28 w-28 border-t-8 border-b-8 border-t-slate-700 border-b-blueColor"></div>
             <img
@@ -57,7 +58,7 @@ const Empower_clients = () => {
             Design
           </h3>
         </div>
-        <div className="grid gap-4 justify-items-center text-center md:flex-1 mt-8">
+        <div className="w-[190px] grid gap-4 justify-items-center text-center mx-2 my-3 mt-8">
           <div className="relative flex justify-center items-center">
             <div className="absolute animate-spin rounded-full h-28 w-28 border-t-8 border-b-8 border-t-slate-700 border-b-blueColor"></div>
             <img
@@ -70,7 +71,7 @@ const Empower_clients = () => {
             Develop
           </h3>
         </div>
-        <div className="grid gap-4 justify-items-center text-center md:flex-1 mt-8">
+        <div className="w-[190px] grid gap-4 justify-items-center text-center mx-2 my-3 mt-8">
           <div className="relative flex justify-center items-center">
             <div className="absolute animate-spin rounded-full h-28 w-28 border-t-8 border-b-8 border-t-slate-700 border-b-blueColor"></div>
             <img
@@ -83,14 +84,15 @@ const Empower_clients = () => {
             Integrate
           </h3>
         </div>
-        <div className="text-center ">
-          <p className=" text-slate-600 text-base text-[15px]   max-w-5xl leading-normal font-semibold tracking-tight">
+        </div>
+        <div className="text-center mt-8">
+          <p className=" text-slate-600 text-base text-[15px] mx-auto max-w-5xl leading-normal font-semibold tracking-tight">
             As a leading custom application development company and IT
             consulting firm, BIT PARK provides our clients with cutting-edge
             software programming services for desktop, mobile, and web
             applications via extensive technological platforms. 
           </p>
-          <p className=" text-slate-600 text-base text-[15px]  p-[1.5rem] max-w-5xl leading-normal font-semibold tracking-tight">
+          <p className=" text-slate-600 text-base text-[15px] mx-auto p-[1.5rem] max-w-5xl leading-normal font-semibold tracking-tight">
             With a 15-year track record as a trustworthy technology solutions
             partner for a wide range of mid-market and enterprise clients, we
             constantly deliver innovative solutions that utilize technology to

@@ -19,23 +19,23 @@ const Whome = () => {
             <img
               src={inquiry}
               alt="Initiate an inquiry to us"
-              className=" w-48 h-48 hover:scale-110 cursor-pointer transition duration-500 ease-in-out"
+              className=" object-cover w-48 h-48 hover:scale-110 cursor-pointer transition duration-500 ease-in-out"
             />
 
             <img
               src={Schedule_a_Preliminary_Call}
               alt="Schedule a Preliminary Call"
-              className="w-48 h-48 hover:scale-110 cursor-pointer transition duration-500 ease-in-out"
+              className="object-cover w-48 h-48 hover:scale-110 cursor-pointer transition duration-500 ease-in-out"
             />
             <img
               src={Get_a_Proposal}
               alt="Get a Proposal"
-              className="w-48 h-48 hover:scale-110 cursor-pointer transition duration-500 ease-in-out"
+              className="object-cover w-48 h-48 hover:scale-110 cursor-pointer transition duration-500 ease-in-out"
             />
             <img
               src={Sign_a_Service_Contract}
               alt="Sign a Service Contract"
-              className="w-48 h-48 hover:scale-110 cursor-pointer transition duration-500 ease-in-out "
+              className="object-cover w-48 h-48 hover:scale-110 cursor-pointer transition duration-500 ease-in-out "
             />
           </div>
 

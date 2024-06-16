@@ -8,14 +8,11 @@ function Test_service() {
         <div className=" bg-slate-900 relative">
           <div
             className="bg-[url('../src/assets/all-images/tqasbgimg1.png')] bg-no-repeat bg-cover flex flex-col lg:flex-row justify-around w-auto  items-center"
-            // style={{
-            //   backgroundImage: "url(../src/assets/all-images/tqasbgimg1.png)",
-            // }}
           >
             <img
               src={testingandqamenimg1}
               alt="testing_and_qa"
-              className=" w-[100%] md:w-[50%] lg:w-[35%] border-b-4 border-b-white lg:border-none"
+              className="relative top-3 w-[100%] md:w-[50%] lg:w-[38%] border-b-4 border-b-white lg:border-none"
             />
             <p className="w-[90%] lg:w-[40%] py-9 text-[#fff] text-justify leading-8 text-lg ">
               Get complete Testing and QA services from Bit Park Pvt Ltd, your
